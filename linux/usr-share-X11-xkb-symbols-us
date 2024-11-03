@@ -1,0 +1,60 @@
+// ENTHIUM BEGIN ////////////////////////////////////////
+//
+// Enthium - Engrammer meets Hands Down Promethium
+//           https://github.com/sunaku/enthium
+//
+// ` 1 2 3 4 5 6 7 8 9 0 cl ra
+//   B Y O U ; X L D P F
+// Q C I E A , K H T N S Z
+//   ' - = . / J M G W V
+//             R
+//
+// Q displaces cl (Caps Lock).
+// R displaces ra (Right Alt).
+//
+partial alphanumeric_keys
+xkb_symbols "enthium"
+{
+	include "us(basic)"
+
+	key <AD01> { [            b,           B ] }; // bB
+	key <AD02> { [            y,           Y ] }; // yY
+	key <AD03> { [            o,           O ] }; // oO
+	key <AD04> { [            u,           U ] }; // uU
+	key <AD05> { [    semicolon,       colon ] }; // ;:
+	key <AD06> { [            x,           X ] }; // xX
+	key <AD07> { [            l,           L ] }; // lL
+	key <AD08> { [            d,           D ] }; // dD
+	key <AD09> { [            p,           P ] }; // pP
+	key <AD10> { [            f,           F ] }; // fF
+
+	key <AC01> { [            c,           C ] }; // cC
+	key <AC02> { [            i,           I ] }; // iI
+	key <AC03> { [            e,           E ] }; // eE
+	key <AC04> { [            a,           A ] }; // aA
+	key <AC05> { [        comma,        less ] }; // ,<
+	key <AC06> { [            k,           K ] }; // kK
+	key <AC07> { [            h,           H ] }; // hH
+	key <AC08> { [            t,           T ] }; // tT
+	key <AC09> { [            n,           N ] }; // nN
+	key <AC10> { [            s,           S ] }; // sS
+	key <AC11> { [            z,           Z ] }; // zZ
+
+	key <AB01> { [   apostrophe,    quotedbl ] }; // '"
+	key <AB02> { [        minus,  underscore ] }; // -_
+	key <AB03> { [        equal,        plus ] }; // =+
+	key <AB04> { [       period,     greater ] }; // .>
+	key <AB05> { [        slash,    question ] }; // /?
+	key <AB06> { [            j,           J ] }; // jJ
+	key <AB07> { [            m,           M ] }; // mM
+	key <AB08> { [            g,           G ] }; // gG
+	key <AB09> { [            w,           W ] }; // wW
+	key <AB10> { [            v,           V ] }; // vV
+
+	key <CAPS> { [            q,           Q ] }; // qQ
+	key <AE11> { [    Caps_Lock              ] }; // -_
+
+	key <RALT> { [            r,           R ] }; // rR
+	key <AE12> { [        Alt_R              ] }; // =+
+};
+// ENTHIUM END //////////////////////////////////////////

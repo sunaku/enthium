@@ -133,10 +133,62 @@ Sfb% per finger:
     finger 2:   0.122%  finger 7:       0.051%
     finger 3:   0.322%  finger 6:       0.114%
 
+## Installation
+
+### Linux setup
+
+Install:
+
+    cd linux/
+    sudo make install
+    echo Now restart your graphical session.
+
+Activate:
+
+    setxkbmap -layout us    -variant enthium         # one layout; no switch
+    setxkbmap -layout us,us -variant enthium,basic   # dual layout switching
+
+Repair (e.g. whenever a system-wide XKB package upgrade reverts installation):
+
+    cd linux/
+    sudo make reinstall
+    echo Now restart your graphical session.
+
+Uninstall:
+
+    cd linux/
+    sudo make uninstall
+    echo Now restart your graphical session.
+
 ## License
 
-Public domain.
+Released under the same terms as [Arno's Engram 2.0] keyboard layout's sources:
 
+> MIT License
+>
+> Copyright 2022 Ricard Figueroa <https://github.com/rfiga>  
+> Copyright 2021 Suraj Kurapati <https://github.com/sunaku>  
+> Copyright 2021 Arno Klein <https://github.com/binarybottle>  
+>
+> Permission is hereby granted, free of charge, to any person obtaining a copy
+> of this software and associated documentation files (the "Software"), to deal
+> in the Software without restriction, including without limitation the rights
+> to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+> copies of the Software, and to permit persons to whom the Software is
+> furnished to do so, subject to the following conditions:
+>
+> The above copyright notice and this permission notice shall be included in
+> all copies or substantial portions of the Software.
+>
+> THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+> IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+> FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+> AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+> LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+> OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+> SOFTWARE.
+
+---------------------------------------------------------------------------
 [Spare A Life]: https://sunaku.github.io/vegan-for-life.html
 > Like my work? 👍 Please [spare a life] today as thanks! 🐄🐖🐑🐔🐣🐟✨🙊✌  
 > Why? For 💕 ethics, the 🌎 environment, and 💪 health; see link above. 🙇
