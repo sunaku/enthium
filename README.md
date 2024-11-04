@@ -3,8 +3,9 @@
 This adaptation of the [Engrammer] and [Hands Down Promethium] keyboard layouts
 improves on the latter's performance in keyboard layout analyzers (see below)
 by mirroring it horizontally to restore familiarity with [Arno's Engram 2.0]
-layout (CIEA on left hand's home row) and the [Dvorak] layout (HTNS on right
-hand's home row), and by optimizing punctuation in the spirit of Engrammer.
+layout (CIEA on left hand's home row; PF is swapped with WV to be like Engram)
+and the [Dvorak] layout (HTNS on right hand's home row), and by optimizing the
+placement of punctuation for programming in the spirit of the Engrammer layout.
 
 [Hands Down Promethium]: https://reddit.com/r/KeyboardLayouts/comments/1g66ivi
 [Arno's Engram 2.0]:     https://engram.dev
@@ -13,9 +14,9 @@ hand's home row), and by optimizing punctuation in the spirit of Engrammer.
 
 ## Layout
 
-      b y o u ; x l d p f
+      b y o u ; x l d w v
     q c i e a , k h t n s z
-      ' - = . / j m g w v
+      ' - = . / j m g p f
                 r
 
 ## Rationale
@@ -38,6 +39,33 @@ hand's home row), and by optimizing punctuation in the spirit of Engrammer.
   symbols `>` and `<`, their arrangement reduces lateral stretch bigrams
   and also clusters `>` with minus and equals for `->` and `=>` arrows.
 
+### Deviation: PF and WV
+
+PF is swapped with WV in order to address the following inconveniences:
+
+* WN is a stair-step ascension same-finger bigram that I wished I could rake down instead
+* DW (2u skip) is not as convenient for Vim as it was in Engram (which puts them adjacent)
+* FG (2u skip) is not as convenient for shell background jobs (`bg`, `fg`) as it was in Engram
+* SW (half scissor) feels a little bit weaker curling inward than reaching up (as in Engram)
+* FF (e.g. "stu*ff*") is a little bit of a chore for the pinky finger to tap twice in the upper row
+
+I really didn't want to deviate from the canonical Hands Down Promethium layout
+(this "Enthium" derivative was just supposed to be a simple horizontal mirror,
+plus some rearranged punctuation marks) so I reluctantly went to the keyboard
+layout analyzer playgrounds to see how bad it would be to swap PF with WV... and
+to my complete surprise, this change hardly affected the layout's performance:
+
+* Oxey's analyzer showed no changes at all in the stats!
+* KeySolve analyzer showed an increase in FSB from 0.14% to 0.37% but the other
+  stats improved: FSS reduced from 0.82% to 0.48%, HSB reduced from 6.05% to
+  5.64%, and HSS reduced from 5.97% to 5.50%; everything else was identical.
+* Cyanophage analyzer's Total Word Effort increased from 730.9 to 735.9 but all
+  other stats remained the same!
+
+I'm _so glad_ this experiment worked out because it makes the layout a lot more
+comfortable for me in practice and it would also further reduce the barrier to
+entry for others seeking to switch over to Enthium from the Engrammer layout. :)
+
 ## Performance
 
 ### [Cyanophage analyzer](https://cyanophage.github.io/playground.html)
@@ -45,10 +73,10 @@ hand's home row), and by optimizing punctuation in the spirit of Engrammer.
 ![Screenshot](analyzer/cyanophage.png)
 
 Playground link:
-> https://cyanophage.github.io/playground.html?layout=fpdlx%3Buoyb%5Csnthk%2Caeicqvwgmj%2F.%3D-%27zr&mode=ergo&lan=english
+> https://cyanophage.github.io/playground.html?layout=vwdlx%3Buoyb%5Csnthk%2Caeicqfpgmj%2F.%3D-%27zr&mode=ergo&lan=english
 
 Overall stats:
-* Total Word Effort: 730.9
+* Total Word Effort: 735.9
 * Effort:            398.34
 
 Finger usage:
@@ -76,8 +104,8 @@ Trigram stats:
 
 Overall stats:
 
-    BIGRAMS     SFB: 0.83%      LSB: 0.41%      HSB: 6.05%      FSB: 0.14%
-    SKIPGRAMS   SFS: 6.56%      LSS: 0.85%      HSS: 5.97%      FSS: 0.82%
+    BIGRAMS     SFB: 0.83%      LSB: 0.41%      HSB: 5.64%      FSB: 0.37%
+    SKIPGRAMS   SFS: 6.56%      LSS: 0.85%      HSS: 5.50%      FSS: 0.48%
     TRIGRAMS    ALT: 40.37%     ROL: 41.16%     ONE: 2.70%      RED: 1.90%
 
 Finger usage:
@@ -88,9 +116,9 @@ Finger usage:
 
 Custom source for copy/paste:
 
-    b y o u ; x l d p f
+    b y o u ; x l d w v
     c i e a , k h t n s
-    ' - = . / j m g w v
+    ' - = . / j m g p f
     r q z
 
 ### [Oxey's analyzer](https://oxey.dev/playground/index.html)
