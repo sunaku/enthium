@@ -14,9 +14,9 @@ placement of punctuation for programming in the spirit of the Engrammer layout.
 
 ## Layout
 
-      b y o u ; x l d w v
-    q c i e a , k h t n s z
-      ' - = . / j m g p f
+      b y o u / x l d w v
+    q c i e a ; k h t n s z
+      ' - = , . j m g p f
                 r
 
 ## Rationale
@@ -27,17 +27,6 @@ placement of punctuation for programming in the spirit of the Engrammer layout.
   it can be typed without same-finger bigrams such as `you'd` and `I'd`.
 
 * Cluster minus and equals for intuitive zoom in/out shortcuts with Ctrl.
-
-* Cluster comma and semicolon for prev/next jumping in Vim for f/F/t/T.
-  This also mirrors the relative ordering of H and L on the right hand.
-
-* Cluster period and slash for `./` and `../` filesystem path navigation,
-  raking down vertically for `</` closing tags in HTML and XML documents,
-  and easy access to forward slash and question mark for Vim text search.
-
-* Although period and comma are backwards in the sense of their shifted
-  symbols `>` and `<`, their arrangement reduces lateral stretch bigrams
-  and also clusters `>` with minus and equals for `->` and `=>` arrows.
 
 ### Deviation: PF and WV
 
@@ -73,16 +62,16 @@ entry for others seeking to switch over to Enthium from the Engrammer layout. :)
 ![Screenshot](analyzer/cyanophage.png)
 
 Playground link:
-> https://cyanophage.github.io/playground.html?layout=vwdlx%3Buoyb%5Csnthk%2Caeicqfpgmj%2F.%3D-%27zr&mode=ergo&lan=english
+> https://cyanophage.github.io/playground.html?layout=vwdlx%2Fuoyb%5Csnthk%3Baeicqfpgmj.%2C%3D-%27zr&mode=ergo&lan=english
 
 Overall stats:
 * Total Word Effort: 735.9
-* Effort:            398.34
+* Effort:            412.53
 
 Finger usage:
 * Same Finger Bigrams: 0.55%
-* Skip Bigrams (2u):   0.30%
-* Lat Stretch Bigrams: 0.20%
+* Skip Bigrams (2u):   0.32%
+* Lat Stretch Bigrams: 0.22%
 * Pinky/Ring Scissors: 0.49%
 
 Trigram stats:
@@ -104,8 +93,8 @@ Trigram stats:
 
 Overall stats:
 
-    BIGRAMS     SFB: 0.83%      LSB: 0.41%      HSB: 5.64%      FSB: 0.37%
-    SKIPGRAMS   SFS: 6.56%      LSS: 0.85%      HSS: 5.50%      FSS: 0.48%
+    BIGRAMS     SFB: 0.83%      LSB: 0.48%      HSB: 5.62%      FSB: 0.37%
+    SKIPGRAMS   SFS: 6.56%      LSS: 0.81%      HSS: 5.47%      FSS: 0.48%
     TRIGRAMS    ALT: 40.37%     ROL: 41.16%     ONE: 2.70%      RED: 1.90%
 
 Finger usage:
@@ -116,9 +105,9 @@ Finger usage:
 
 Custom source for copy/paste:
 
-    b y o u ; x l d w v
-    c i e a , k h t n s
-    ' - = . / j m g p f
+    b y o u / x l d w v
+    c i e a ; k h t n s
+    ' - = , . j m g p f
     r q z
 
 ### [Oxey's analyzer](https://oxey.dev/playground/index.html)
@@ -128,7 +117,7 @@ Custom source for copy/paste:
 Overall stats:
 * Sfb:              0.829%
 * Dsfb:             6.529%
-* Lsb:              0.319%
+* Lsb:              0.337%
 * Inrolls:          29.137%
 * Outrolls:         14.679%
 * Total Rolls:      43.816%
@@ -150,7 +139,7 @@ Finger usage:
     finger 3:   13.11%  finger 6:       12.33%
 
     Left hand:   46.68% Right hand:     47.10%
-    Left center: 1.211% Right center:   1.189%
+    Left center: 1.294% Right center:   1.189%
 
     Home keys usage: 56.37%
 
