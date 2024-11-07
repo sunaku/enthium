@@ -7,10 +7,15 @@ layout (CIEA on left hand's home row; PF is swapped with WV to be like Engram)
 and the [Dvorak] layout (HTNS on right hand's home row), and by optimizing the
 placement of punctuation for programming in the spirit of the Engrammer layout.
 
+Notably, the differences between Engram/mer and Enthium are so minimal that one
+might switch to it completely with about 6 hours of practice, spread over 2-3
+days (start Friday and use weekend), to unlock all letters in [KeyBr] training.
+
 [Hands Down Promethium]: https://reddit.com/r/KeyboardLayouts/comments/1g66ivi
 [Arno's Engram 2.0]:     https://engram.dev
 [Engrammer]:             https://github.com/sunaku/engrammer
 [Dvorak]:                https://www.dvzine.org
+[KeyBr]:                 https://github.com/aradzie/keybr.com#readme
 
 ## Layout
 
@@ -18,6 +23,21 @@ placement of punctuation for programming in the spirit of the Engrammer layout.
     q c i e a , k h t n s z
       ' - = . ; j m g p f
                 r
+
+<!-- vim-markdown-toc GFM -->
+
+* [Rationale](#rationale)
+  * [Deviation: PF and WV](#deviation-pf-and-wv)
+* [Performance](#performance)
+  * [Cyanophage analyzer](#cyanophage-analyzer)
+  * [KeySolve analyzer](#keysolve-analyzer)
+  * [Oxey's analyzer](#oxeys-analyzer)
+  * [Comparison](#comparison)
+* [Installation](#installation)
+  * [Linux setup](#linux-setup)
+* [License](#license)
+
+<!-- vim-markdown-toc -->
 
 ## Rationale
 

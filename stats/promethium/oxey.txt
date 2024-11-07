@@ -1,4 +1,3 @@
-
 Finger usage:
 finger 0: 	9.56% 	finger 9: 	4.62%
 finger 1: 	10.65% 	finger 8: 	9.01%
@@ -27,4 +26,3 @@ BadRedirects: 1.236%
 Total Redirects: 3.509%
 Other: 8.468%
 Invalid: 0.001%
-
