@@ -278,6 +278,9 @@ For completeness, I've tabulated all [statistics for this and related layouts]( 
 
 ### Linux setup
 
+>*Legend:* QWERTY=white; Engram=gold; Enthium=blue/green; Quirks=pink.
+>![Rendering of this layout on a row-staggered keyboard.](linux/layout.png)
+
 Install:
 
     cd linux/
