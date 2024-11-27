@@ -19,9 +19,9 @@ days (start Friday and use weekend), to unlock all letters in [KeyBr] training.
 
 ## Layout
 
-      b y o u / x l d w v
+      b y o u ; x l d w v
     q c i e a , k h t n s z
-      ' - = . ; j m g p f
+      ' - = . / j m g p f
                 r
 
 <!-- vim-markdown-toc GFM -->
@@ -46,11 +46,14 @@ days (start Friday and use weekend), to unlock all letters in [KeyBr] training.
 * Apostrophe is away (on a different finger entirely) from YOU and I so
   it can be typed without same-finger bigrams such as `you'd` and `I'd`.
 
-* Slash is near 1 for affinity between their shifted symbols `?` and `!`.
-
 * Cluster minus and equals for intuitive zoom in/out shortcuts with Ctrl.
 
 * Cluster comma and semicolon for prev/next jumping in Vim for f/F/t/T.
+  This also mirrors the relative ordering of H and L on the right hand.
+
+* Cluster period and slash for `./` and `../` filesystem path navigation,
+  raking down vertically for `</` closing tags in HTML and XML documents,
+  and easy access to forward slash and question mark for Vim text search.
 
 * Although period and comma are backwards in the sense of their shifted
   symbols `>` and `<`, their arrangement reduces lateral stretch bigrams
@@ -91,7 +94,7 @@ entry for others seeking to switch over to Enthium from the Engrammer layout. :)
 
 Overall stats:
 * Total Word Effort: 735.9
-* Effort:            398.47
+* Effort:            398.34
 
 Finger usage:
 * Same Finger Bigrams: 0.55%
@@ -118,8 +121,8 @@ Trigram stats:
 
 Overall stats:
 
-    BIGRAMS     SFB: 0.83%      LSB: 0.41%      HSB: 5.62%      FSB: 0.37%
-    SKIPGRAMS   SFS: 6.56%      LSS: 0.85%      HSS: 5.47%      FSS: 0.48%
+    BIGRAMS     SFB: 0.83%      LSB: 0.41%      HSB: 5.64%      FSB: 0.37%
+    SKIPGRAMS   SFS: 6.56%      LSS: 0.85%      HSS: 5.50%      FSS: 0.48%
     TRIGRAMS    ALT: 40.37%     ROL: 41.16%     ONE: 2.70%      RED: 1.90%
 
 Finger usage:
@@ -130,9 +133,9 @@ Finger usage:
 
 Custom source for copy/paste:
 
-    b y o u / x l d w v
+    b y o u ; x l d w v
     c i e a , k h t n s
-    ' - = . ; j m g p f
+    ' - = . / j m g p f
     r q z
 
 ### [Oxey's analyzer](https://oxey.dev/playground/index.html)
@@ -192,7 +195,7 @@ and you'll see that Enthium is among the best (statistically) layouts there:
 
 For completeness, I've tabulated all [statistics for this and related layouts]( stats/ ):
 
-[cNT]: https://cyanophage.github.io/playground.html?layout=vwdlx%2Fuoyb%5Csnthk%2Caeicqfpgmj%3B.%3D-%27zr&mode=ergo&lan=english
+[cNT]: https://cyanophage.github.io/playground.html?layout=vwdlx%3Buoyb%5Csnthk%2Caeicqfpgmj%2F.%3D-%27zr&mode=ergo&lan=english
 [cPM]: https://cyanophage.github.io/playground.html?layout=fpdlx%3Buoybzsnthk%2Caeicqvwgmj-.%27%3D%2F%5Cr&mode=ergo&lan=english
 [cNG]: https://cyanophage.github.io/playground.html?layout=byou%27%3Bldwvzciea%2C.htsnqgxjk-%2Frmfp%5C%5E&mode=ergo&lan=english
 [cDV]: https://cyanophage.github.io/playground.html?layout=%27%2C.pyfgcrl%2Faoeuidhtns-%3Bqjkxbmwvz%5C%5E&mode=ergo&lan=english
@@ -238,11 +241,11 @@ For completeness, I've tabulated all [statistics for this and related layouts]( 
 | Oxey's     | SFB%      | Finger 9            | 0.028%         | 0.011%            | 0.058%           | 0.220%        | 0.007%            |
 | KeySolve   | Bigrams   | SFB                 | 0.83%          | 0.94%             | 1.56%            | 2.62%         | 1.49%             |
 | KeySolve   | Bigrams   | LSB                 | 0.41%          | 0.45%             | 0.98%            | 1.17%         | 2.21%             |
-| KeySolve   | Bigrams   | HSB                 | 5.62%          | 6.04%             | 3.02%            | 6.11%         | 5.93%             |
+| KeySolve   | Bigrams   | HSB                 | 5.64%          | 6.04%             | 3.02%            | 6.11%         | 5.93%             |
 | KeySolve   | Bigrams   | FSB                 | 0.37%          | 0.26%             | 0.30%            | 0.14%         | 0.37%             |
 | KeySolve   | Skipgrams | SFS                 | 6.56%          | 7.02%             | 7.50%            | 7.00%         | 7.95%             |
 | KeySolve   | Skipgrams | LSS                 | 0.85%          | 0.93%             | 1.34%            | 4.48%         | 1.75%             |
-| KeySolve   | Skipgrams | HSS                 | 5.47%          | 6.11%             | 6.91%            | 8.56%         | 6.49%             |
+| KeySolve   | Skipgrams | HSS                 | 5.50%          | 6.11%             | 6.91%            | 8.56%         | 6.49%             |
 | KeySolve   | Skipgrams | FSS                 | 0.48%          | 0.78%             | 0.81%            | 1.22%         | 0.78%             |
 | KeySolve   | Trigrams  | ALT                 | 40.37%         | 40.37%            | 39.59%           | 41.70%        | 27.58%            |
 | KeySolve   | Trigrams  | ROL                 | 41.16%         | 40.84%            | 39.35%           | 37.19%        | 42.78%            |
@@ -259,7 +262,7 @@ For completeness, I've tabulated all [statistics for this and related layouts]( 
 | KeySolve   | Total     | LH                  | 47.18%         | 47.18%            | 48.75%           | 46.31%        | 44.46%            |
 | KeySolve   | Total     | RH                  | 52.82%         | 52.82%            | 51.25%           | 53.69%        | 55.54%            |
 | Cyanophage | Summary   | Total Word Effort   | 735.9          | 732.3             | 899.8            | 1185.5        | 1048.2            |
-| Cyanophage | Summary   | Effort              | 398.47         | 398.07            | 457.44           | 769.78        | 535.05            |
+| Cyanophage | Summary   | Effort              | 398.34         | 398.07            | 457.44           | 769.78        | 535.05            |
 | Cyanophage | Bigrams   | Same Finger Bigrams | 0.55%          | 0.58%             | 0.99%            | 1.87%         | 0.91%             |
 | Cyanophage | Bigrams   | Skip Bigrams (2u)   | 0.30%          | 0.36%             | 0.39%            | 0.45%         | 0.41%             |
 | Cyanophage | Bigrams   | Lat Stretch Bigrams | 0.20%          | 0.24%             | 0.41%            | 0.80%         | 1.27%             |
