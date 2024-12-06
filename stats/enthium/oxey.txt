@@ -12,17 +12,17 @@ finger 1: 	0.071% 	finger 8: 	0.100%
 finger 2: 	0.122% 	finger 7: 	0.051%
 finger 3: 	0.322% 	finger 6: 	0.114%
 Sfb:  0.829%
-Dsfb: 6.529%
+Dsfb: 6.534%
 Lsb:  0.319%
-Inrolls: 29.137%
-Outrolls: 14.679%
-Total Rolls: 43.816%
-Onehands: 2.206%
-Alternates: 34.215%
-Alternates (sfs): 8.044%
-Total Alternates: 42.259%
-Redirects: 2.107%
+Inrolls: 29.183%
+Outrolls: 14.872%
+Total Rolls: 44.055%
+Onehands: 2.091%
+Alternates: 34.062%
+Alternates (sfs): 8.035%
+Total Alternates: 42.096%
+Redirects: 2.146%
 BadRedirects: 1.243%
-Total Redirects: 3.350%
+Total Redirects: 3.389%
 Other: 8.369%
 Invalid: 0.001%
