@@ -5,7 +5,7 @@
 //
 // ` 1 2 3 4 5 6 7 8 9 0 cl ra
 //   B Y O U / X L D W V
-// Q C I E A , K H T N S Z
+// Z C I E A , K H T N S Q
 //   ' - = . ; J M G P F
 //             R
 //
@@ -38,7 +38,7 @@ xkb_symbols "enthium"
 	key <AC08> { [            t,           T ] }; // tT
 	key <AC09> { [            n,           N ] }; // nN
 	key <AC10> { [            s,           S ] }; // sS
-	key <AC11> { [            z,           Z ] }; // zZ
+	key <AC11> { [            q,           Q ] }; // qQ
 
 	key <AB01> { [   apostrophe,    quotedbl ] }; // '"
 	key <AB02> { [        minus,  underscore ] }; // -_
@@ -51,7 +51,7 @@ xkb_symbols "enthium"
 	key <AB09> { [            p,           P ] }; // pP
 	key <AB10> { [            f,           F ] }; // fF
 
-	key <CAPS> { [            q,           Q ] }; // qQ
+	key <CAPS> { [            z,           Z ] }; // zZ
 	key <AE11> { [    Caps_Lock              ] }; // -_
 
 	key <RALT> { [            r,           R ] }; // rR
