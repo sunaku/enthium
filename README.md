@@ -204,7 +204,7 @@ and you'll see that Enthium is among the best (statistically) layouts there:
 * 0.319% LSBs -- first place; beats entire table! 🥇
 * 44.055% rolls -- beats MTGAP, Graphite, BEAKL-19, Engram, Dvorak, Halmak
 * 3.389% redirects -- surpassed only by Nerps, Graphite, Gallium, BEAKL-19
-* I don't know how "Pinky off" is calculated so I can't compare it yet
+* 5.35% pinky off -- beats Engram
 
 [rKL]: https://www.reddit.com/r/KeyboardLayouts/
 [PGt]: https://getreuer.info/posts/keyboards/alt-layouts/index.html#which-alt-keyboard-layout-should-i-learn
