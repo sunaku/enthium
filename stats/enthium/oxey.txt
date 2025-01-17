@@ -1,28 +1,28 @@
 Finger usage:
-finger 0: 	5.02% 	finger 9: 	9.56%
+finger 0: 	3.63% 	finger 9: 	8.60%
 finger 1: 	9.25% 	finger 8: 	10.65%
 finger 2: 	19.30% 	finger 7: 	14.56%
 finger 3: 	13.11% 	finger 6: 	12.33%
-Left hand: 46.68% 	Right hand: 47.10%
+Left hand: 45.29% 	Right hand: 46.14%
 Left center: 1.211% 	Right center: 1.189%
 Home keys usage: 56.37%
 Sfb% per finger:
-finger 0: 	0.021% 	finger 9: 	0.028%
+finger 0: 	0.011% 	finger 9: 	0.024%
 finger 1: 	0.071% 	finger 8: 	0.100%
 finger 2: 	0.122% 	finger 7: 	0.051%
 finger 3: 	0.322% 	finger 6: 	0.114%
-Sfb:  0.829%
-Dsfb: 6.534%
+Sfb:  0.818%
+Dsfb: 6.236%
 Lsb:  0.319%
-Inrolls: 29.183%
-Outrolls: 14.872%
-Total Rolls: 44.055%
-Onehands: 2.091%
-Alternates: 34.062%
-Alternates (sfs): 8.035%
-Total Alternates: 42.096%
-Redirects: 2.146%
-BadRedirects: 1.243%
-Total Redirects: 3.389%
-Other: 8.369%
+Inrolls: 29.408%
+Outrolls: 15.867%
+Total Rolls: 45.274%
+Onehands: 2.343%
+Alternates: 31.891%
+Alternates (sfs): 7.270%
+Total Alternates: 39.161%
+Redirects: 3.838%
+BadRedirects: 1.024%
+Total Redirects: 4.862%
+Other: 8.359%
 Invalid: 0.001%
