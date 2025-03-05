@@ -36,7 +36,11 @@ days (start Friday and use weekend), to unlock all letters in [KeyBr] training.
   * [Comparison](#comparison)
 * [Installation](#installation)
   * [Linux setup](#linux-setup)
+  * [Windows setup](#windows-setup)
   * [MacOS setup](#macos-setup)
+    * [Installation](#installation-1)
+    * [Complex modification](#complex-modification)
+    * [Uninstallation](#uninstallation)
 * [License](#license)
 
 <!-- vim-markdown-toc -->
@@ -345,6 +349,23 @@ Uninstall:
     cd linux/
     sudo make uninstall
     echo Now restart your graphical session.
+
+### Windows setup
+
+1. Install the official _Microsoft Keyboard Layout Creator_ app: [MSKLC version 1.4](
+  https://www.microsoft.com/en-us/download/details.aspx?id=102134
+).
+
+2. Copy the `windows\kbd.h` file into your MSKLC installation folder located at:
+   `C:\Program Files (x86)\Microsoft Keyboard Layout Creator 1.4\inc`
+
+3. Launch the MSKLC application and load the `windows\enthium.klc` source file.
+
+4. From the "Project" menu, select the "Build DLL and Setup Package" action.
+
+5. Open the resulting build directory and run the `setup.exe` installer file.
+
+See also [Remapping System Keys](https://msklc-guide.github.io/#3) in the MSKLC Guide.
 
 ### MacOS setup
 
