@@ -36,6 +36,7 @@ days (start Friday and use weekend), to unlock all letters in [KeyBr] training.
   - [Comparison](#comparison)
 - [Installation](#installation)
   - [Linux setup](#linux-setup)
+  - [MacOS setup](#macos-setup)
 - [License](#license)
 
 <!-- vim-markdown-toc -->
