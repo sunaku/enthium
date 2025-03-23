@@ -12,10 +12,10 @@ might switch to it completely with about 6 hours of practice, spread over 2-3
 days (start Friday and use weekend), to unlock all letters in [KeyBr] training.
 
 [Hands Down Promethium]: https://reddit.com/r/KeyboardLayouts/comments/1g66ivi
-[Arno's Engram 2.0]:     https://engram.dev
-[Engrammer]:             https://github.com/sunaku/engrammer
-[Dvorak]:                https://www.dvzine.org
-[KeyBr]:                 https://github.com/aradzie/keybr.com#readme
+[Arno's Engram 2.0]: https://engram.dev
+[Engrammer]: https://github.com/sunaku/engrammer
+[Dvorak]: https://www.dvzine.org
+[KeyBr]: https://github.com/aradzie/keybr.com#readme
 
 ## Layout
 
@@ -26,37 +26,37 @@ days (start Friday and use weekend), to unlock all letters in [KeyBr] training.
 
 <!-- vim-markdown-toc GFM -->
 
-* [Rationale](#rationale)
-  * [Deviation: PF and WV](#deviation-pf-and-wv)
-  * [Deviation: B and V](#deviation-b-and-v)
-* [Performance](#performance)
-  * [Cyanophage analyzer](#cyanophage-analyzer)
-  * [KeySolve analyzer](#keysolve-analyzer)
-  * [Oxey's analyzer](#oxeys-analyzer)
-  * [Comparison](#comparison)
-* [Installation](#installation)
-  * [Linux setup](#linux-setup)
-* [License](#license)
+- [Rationale](#rationale)
+  - [Deviation: PF and WV](#deviation-pf-and-wv)
+  - [Deviation: B and V](#deviation-b-and-v)
+- [Performance](#performance)
+  - [Cyanophage analyzer](#cyanophage-analyzer)
+  - [KeySolve analyzer](#keysolve-analyzer)
+  - [Oxey's analyzer](#oxeys-analyzer)
+  - [Comparison](#comparison)
+- [Installation](#installation)
+  - [Linux setup](#linux-setup)
+- [License](#license)
 
 <!-- vim-markdown-toc -->
 
 ## Rationale
 
-* Q and Z are split apart onto different hands for balance and symmetry.
+- Q and Z are split apart onto different hands for balance and symmetry.
 
-* Apostrophe is away (on a different finger entirely) from YOU and I so
+- Apostrophe is away (on a different finger entirely) from YOU and I so
   it can be typed without same-finger bigrams such as `you'd` and `I'd`.
 
-* Cluster minus and equals for intuitive zoom in/out shortcuts with Ctrl.
+- Cluster minus and equals for intuitive zoom in/out shortcuts with Ctrl.
 
-* Cluster comma and semicolon for prev/next jumping in Vim for f/F/t/T.
+- Cluster comma and semicolon for prev/next jumping in Vim for f/F/t/T.
   This also mirrors the relative ordering of H and L on the right hand.
 
-* Cluster period and slash for `./` and `../` filesystem path navigation,
+- Cluster period and slash for `./` and `../` filesystem path navigation,
   raking down vertically for `</` closing tags in HTML and XML documents,
   and easy access to forward slash and question mark for Vim text search.
 
-* Although period and comma are backwards in the sense of their shifted
+- Although period and comma are backwards in the sense of their shifted
   symbols `>` and `<`, their arrangement reduces lateral stretch bigrams
   and also clusters `>` with minus and equals for `->` and `=>` arrows.
 
@@ -64,11 +64,11 @@ days (start Friday and use weekend), to unlock all letters in [KeyBr] training.
 
 PF is swapped with WV in order to address the following inconveniences:
 
-* WN is a stair-step ascension same-finger bigram that I wished I could rake down instead
-* DW (2u skip) is not as convenient for Vim as it was in Engram (which puts them adjacent)
-* FG (2u skip) is not as convenient for shell background jobs (`bg`, `fg`) as it was in Engram
-* SW (half scissor) feels a little bit weaker curling inward than reaching up (as in Engram)
-* FF (e.g. "stu*ff*") is a little bit of a chore for the pinky finger to tap twice in the upper row
+- WN is a stair-step ascension same-finger bigram that I wished I could rake down instead
+- DW (2u skip) is not as convenient for Vim as it was in Engram (which puts them adjacent)
+- FG (2u skip) is not as convenient for shell background jobs (`bg`, `fg`) as it was in Engram
+- SW (half scissor) feels a little bit weaker curling inward than reaching up (as in Engram)
+- FF (e.g. "stu*ff*") is a little bit of a chore for the pinky finger to tap twice in the upper row
 
 I really didn't want to deviate from the canonical Hands Down Promethium layout
 (this "Enthium" derivative was just supposed to be a simple horizontal mirror,
@@ -76,11 +76,11 @@ plus some rearranged punctuation marks) so I reluctantly went to the keyboard
 layout analyzer playgrounds to see how bad it would be to swap PF with WV... and
 to my complete surprise, this change hardly affected the layout's performance:
 
-* Oxey's analyzer showed no changes at all in the stats!
-* KeySolve analyzer showed an increase in FSB from 0.14% to 0.37% but the other
+- Oxey's analyzer showed no changes at all in the stats!
+- KeySolve analyzer showed an increase in FSB from 0.14% to 0.37% but the other
   stats improved: FSS reduced from 0.82% to 0.48%, HSB reduced from 6.05% to
   5.64%, and HSS reduced from 5.97% to 5.50%; everything else was identical.
-* Cyanophage analyzer's Total Word Effort increased from 730.9 to 735.9 but all
+- Cyanophage analyzer's Total Word Effort increased from 730.9 to 735.9 but all
   other stats remained the same!
 
 I'm _so glad_ this experiment worked out because it makes the layout a lot more
@@ -90,8 +90,7 @@ entry for others seeking to switch over to Enthium from the Engrammer layout. :)
 ### Deviation: B and V
 
 B and V are rotated out from the upper row to the home row lateral in order to
-avoid reaching up with short pinky fingers or those [weakened by convention](
-https://reddit.com/r/KeyboardLayouts/comments/1fy8nve/_/lqulnww/ ).  Their keys
+avoid reaching up with short pinky fingers or those [weakened by convention](https://reddit.com/r/KeyboardLayouts/comments/1fy8nve/_/lqulnww/). Their keys
 are reassigned to the least frequent letters in the English language: Q and Z.
 
 In the Cyanophage analyzer, this change reduces Pinky/Ring Scissors from 0.49%
@@ -106,36 +105,39 @@ but Oxey's analyzer reports a notable reduction in SFBs from 0.829% to 0.818%.
 
 > **NOTE:** This analyzer currently has a limitation where it only supports
 > placing a letter on the left thumb and not on the right, so this layout is
-> mirrored horizontally for analysis.  Mirroring doesn't affect the results.
+> mirrored horizontally for analysis. Mirroring doesn't affect the results.
 
 ![Screenshot](stats/enthium/cyanophage.png)
 
 Overall stats:
-* Total Word Effort: 748.5
-* Effort:            430.25
+
+- Total Word Effort: 748.5
+- Effort: 430.25
 
 Finger usage:
-* Same Finger Bigrams: 0.55%
-* Skip Bigrams (2u):   0.29%
-* Lat Stretch Bigrams: 0.20%
-* Pinky/Ring Scissors: 0.35%
+
+- Same Finger Bigrams: 0.55%
+- Skip Bigrams (2u): 0.29%
+- Lat Stretch Bigrams: 0.20%
+- Pinky/Ring Scissors: 0.35%
 
 Trigram stats:
-* alt:             37.47%
-* bigram roll in:  28.99%
-* bigram roll out: 14.71%
-* other:           9.07%
-* alt sfs:         5.08%
-* redirect:        1.94%
-* roll in:         1.36%
-* weak redirect:   1.24%
-* roll out:        0.13%
+
+- alt: 37.47%
+- bigram roll in: 28.99%
+- bigram roll out: 14.71%
+- other: 9.07%
+- alt sfs: 5.08%
+- redirect: 1.94%
+- roll in: 1.36%
+- weak redirect: 1.24%
+- roll out: 0.13%
 
 ### [KeySolve analyzer](https://clemenpine.github.io/keysolve-web/)
 
 > **NOTE:** This analyzer currently doesn't support placing letters on lateral
 > home row pinky keys such as the traditional CapsLock key and the apostrophe,
-> so these results may not be accurate.  For instance, the SFB percentage here
+> so these results may not be accurate. For instance, the SFB percentage here
 > assumes that R B V are all typed by the thumb whereas they're all really on
 > different fingers: with R on right thumb, B on left pinky, V on right pinky.
 
@@ -166,32 +168,33 @@ Custom source for copy/paste:
 
 > **NOTE:** This analyzer currently doesn't support placing letters on lateral
 > home row pinky keys such as the traditional CapsLock key and the apostrophe,
-> so these results may not be accurate.  For instance, the SFB percentage here
+> so these results may not be accurate. For instance, the SFB percentage here
 > assumes that B and V are typed by the left thumb whereas they're really on
 > different fingers: with B typed by the left pinky and V by the right pinky.
 
 ![Screenshot](stats/enthium/oxey.png)
 
 Overall stats:
-* Sfb:              0.818%
-* Dsfb:             6.236%
-* Lsb:              0.319%
-* Inrolls:          29.408%
-* Outrolls:         15.867%
-* Total Rolls:      45.274%
-* Onehands:         2.343%
-* Alternates:       31.891%
-* Alternates (sfs): 7.270%
-* Total Alternates: 39.161%
-* Redirects:        3.838%
-* BadRedirects:     1.024%
-* Total Redirects:  4.862%
-* Other:            8.359%
-* Invalid:          0.001%
+
+- Sfb: 0.818%
+- Dsfb: 6.236%
+- Lsb: 0.319%
+- Inrolls: 29.408%
+- Outrolls: 15.867%
+- Total Rolls: 45.274%
+- Onehands: 2.343%
+- Alternates: 31.891%
+- Alternates (sfs): 7.270%
+- Total Alternates: 39.161%
+- Redirects: 3.838%
+- BadRedirects: 1.024%
+- Total Redirects: 4.862%
+- Other: 8.359%
+- Invalid: 0.001%
 
 Finger usage:
 
-    finger 0:   3.63%   finger 9:       8.60% 
+    finger 0:   3.63%   finger 9:       8.60%
     finger 1:   9.25%   finger 8:       10.65%
     finger 2:   19.30%  finger 7:       14.56%
     finger 3:   13.11%  finger 6:       12.33%
@@ -212,7 +215,7 @@ Sfb% per finger:
 
 > **NOTE:** Oxey's analyzer currently doesn't support placing letters on lateral
 > home row pinky keys such as the traditional CapsLock key and the apostrophe,
-> so these results may not be accurate.  For instance, the SFB percentage here
+> so these results may not be accurate. For instance, the SFB percentage here
 > assumes that B and V are typed by the left thumb whereas they're really on
 > different fingers: with B typed by the left pinky and V by the right pinky.
 > Instead, consider the [Cyanophage analyzer's results](#cyanophage-analyzer)
@@ -222,19 +225,19 @@ The [keyboard layout community][rKL] commonly recommends [Pascal Getreuer's
 guide and comparison table][PGt] as a starting point for layout exploration,
 and you'll see that Enthium is among the best (statistically) layouts there:
 
-* 0.818% SFBs -- wins 🥈 second place; surpassed by Focal
-* 0.319% LSBs -- wins 🥇 first place; beats the entire table!
-* 45.274% rolls -- beats Nerps, Gallium, MTGAP, Graphite, Dvorak, Halmak, etc.
-* 4.862% redirects -- beats MTGAP, Sturdy, Recurva, APTv3, Canary, Colemak, etc.
-* 2.80% pinky off _excluding_ lateral -- beats Graphite, Canary, Gallium, MTGAP, etc.
-  * `Q` (0.10%) + `'` (0.48%) + `Z` (0.10%) + `F` (2.12%)
-* 5.35% pinky off _including_ lateral -- beats Engram, Halmak; surpassed by the rest
-  * `Q` (0.10%) + `'` (0.48%) + `Z` (0.10%) + `F` (2.12%) + `B` (1.49%) + `V` (1.06%)
+- 0.818% SFBs -- wins 🥈 second place; surpassed by Focal
+- 0.319% LSBs -- wins 🥇 first place; beats the entire table!
+- 45.274% rolls -- beats Nerps, Gallium, MTGAP, Graphite, Dvorak, Halmak, etc.
+- 4.862% redirects -- beats MTGAP, Sturdy, Recurva, APTv3, Canary, Colemak, etc.
+- 2.80% pinky off _excluding_ lateral -- beats Graphite, Canary, Gallium, MTGAP, etc.
+  - `Q` (0.10%) + `'` (0.48%) + `Z` (0.10%) + `F` (2.12%)
+- 5.35% pinky off _including_ lateral -- beats Engram, Halmak; surpassed by the rest
+  - `Q` (0.10%) + `'` (0.48%) + `Z` (0.10%) + `F` (2.12%) + `B` (1.49%) + `V` (1.06%)
 
 [rKL]: https://www.reddit.com/r/KeyboardLayouts/
 [PGt]: https://getreuer.info/posts/keyboards/alt-layouts/index.html#which-alt-keyboard-layout-should-i-learn
 
-For completeness, I've tabulated all [statistics for this and related layouts]( stats/ ):
+For completeness, I've tabulated all [statistics for this and related layouts](stats/):
 
 [cNT]: https://cyanophage.github.io/playground.html?layout=zwdlx%3Buoyq%5Csnthk%2Caeicbfpgmj%2F.%3D-%27vr&mode=ergo&lan=english
 [cPM]: https://cyanophage.github.io/playground.html?layout=fpdlx%3Buoybzsnthk%2Caeicqvwgmj-.%27%3D%2F%5Cr&mode=ergo&lan=english
@@ -322,8 +325,8 @@ For completeness, I've tabulated all [statistics for this and related layouts]( 
 
 ### Linux setup
 
->*Legend:* QWERTY=white; Engram=gold; Enthium=blue/green; Quirks=pink.
->![Rendering of this layout on a row-staggered keyboard.](linux/layout.png)
+> _Legend:_ QWERTY=white; Engram=gold; Enthium=blue/green; Quirks=pink.
+> ![Rendering of this layout on a row-staggered keyboard.](linux/layout.png)
 
 Install:
 
@@ -348,6 +351,33 @@ Uninstall:
     sudo make uninstall
     echo Now restart your graphical session.
 
+### MacOS setup
+
+#### Installation
+
+In order to use the layout on MacOS, you'll need to install [Karabiner-Elements](https://karabiner-elements.pqrs.org/).
+
+You can install it via [Homebrew](https://brew.sh/):
+
+    brew install --cask karabiner-elements
+
+Or download it from the main [Karabiner-Elements website](https://karabiner-elements.pqrs.org/).
+
+When downloaded, simply follow the instructions of the [installation guide](https://karabiner-elements.pqrs.org/docs/getting-started/installation/).
+
+#### Complex modification
+
+Once everything is installed, you can use the [complex modification feature](https://karabiner-elements.pqrs.org/docs/manual/configuration/configure-complex-modifications/) to remap your keys.
+
+The enthium complex modification is available [here](https://ke-complex-modifications.pqrs.org/?q=enthium).
+
+To get back to the basic layout, you can simply remove the enthium complex modification.
+
+#### Uninstallation
+
+- Brew : `brew uninstall --cask karabiner-elements`
+- Manual : Remove the `Karabiner-Elements.app` from your Applications folder.
+
 ## License
 
 Released under the same terms as [Arno's Engram 2.0] keyboard layout's sources:
@@ -356,7 +386,7 @@ Released under the same terms as [Arno's Engram 2.0] keyboard layout's sources:
 >
 > Copyright 2022 Ricard Figueroa <https://github.com/rfiga>  
 > Copyright 2021 Suraj Kurapati <https://github.com/sunaku>  
-> Copyright 2021 Arno Klein <https://github.com/binarybottle>  
+> Copyright 2021 Arno Klein <https://github.com/binarybottle>
 >
 > Permission is hereby granted, free of charge, to any person obtaining a copy
 > of this software and associated documentation files (the "Software"), to deal
@@ -376,7 +406,9 @@ Released under the same terms as [Arno's Engram 2.0] keyboard layout's sources:
 > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 > SOFTWARE.
 
----------------------------------------------------------------------------
+---
+
 [Spare A Life]: https://sunaku.github.io/vegan-for-life.html
+
 > Like my work? 👍 Please [spare a life] today as thanks! 🐄🐖🐑🐔🐣🐟✨🙊✌  
 > Why? For 💕 ethics, the 🌎 environment, and 💪 health; see link above. 🙇
