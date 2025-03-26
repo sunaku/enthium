@@ -36,6 +36,10 @@ days (start Friday and use weekend), to unlock all letters in [KeyBr] training.
   * [Comparison](#comparison)
 * [Installation](#installation)
   * [Linux setup](#linux-setup)
+  * [MacOS setup](#macos-setup)
+    * [Installation](#installation-1)
+    * [Complex modification](#complex-modification)
+    * [Uninstallation](#uninstallation)
 * [License](#license)
 
 <!-- vim-markdown-toc -->
@@ -347,6 +351,33 @@ Uninstall:
     cd linux/
     sudo make uninstall
     echo Now restart your graphical session.
+
+### MacOS setup
+
+#### Installation
+
+In order to use the layout on MacOS, you'll need to install [Karabiner-Elements](https://karabiner-elements.pqrs.org/).
+
+You can install it via [Homebrew](https://brew.sh/):
+
+    brew install --cask karabiner-elements
+
+Or download it from the main [Karabiner-Elements website](https://karabiner-elements.pqrs.org/).
+
+When downloaded, simply follow the instructions of the [installation guide](https://karabiner-elements.pqrs.org/docs/getting-started/installation/).
+
+#### Complex modification
+
+Once everything is installed, you can use the [complex modification feature](https://karabiner-elements.pqrs.org/docs/manual/configuration/configure-complex-modifications/) to remap your keys.
+
+The enthium complex modification is available [here](https://ke-complex-modifications.pqrs.org/?q=enthium).
+
+To get back to the basic layout, you can simply remove the enthium complex modification.
+
+#### Uninstallation
+
+* Brew : `brew uninstall --cask karabiner-elements`
+* Manual : Remove the `Karabiner-Elements.app` from your Applications folder.
 
 ## License
 
