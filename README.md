@@ -21,7 +21,7 @@ days (start Friday and use weekend), to unlock all letters in [KeyBr] training.
 
       q y o u ; x l d w z
     b c i e a , k h t n s v
-      ' - = . / j m g p f
+      ' / = - . j m g p f
                 r
 
 <!-- vim-markdown-toc GFM -->
@@ -61,9 +61,8 @@ days (start Friday and use weekend), to unlock all letters in [KeyBr] training.
   raking down vertically for `</` closing tags in HTML and XML documents,
   and easy access to forward slash and question mark for Vim text search.
 
-* Although period and comma are backwards in the sense of their shifted
-  symbols `>` and `<`, their arrangement reduces lateral stretch bigrams
-  and also clusters `>` with minus and equals for `->` and `=>` arrows.
+* Stack comma and period for their shifted symbols `<>` to be raked down
+  vertically, and cluster with minus and equals for `->` and `=>` arrows.
 
 ### Deviation: PF and WV
 
@@ -241,7 +240,7 @@ and you'll see that Enthium is among the best (statistically) layouts there:
 
 For completeness, I've tabulated all [statistics for this and related layouts]( stats/ ):
 
-[cNT]: https://cyanophage.github.io/playground.html?layout=zwdlx%3Buoyq%5Csnthk%2Caeicbfpgmj%2F.%3D-%27vr&mode=ergo&lan=english
+[cNT]: https://cyanophage.github.io/playground.html?layout=zwdlx%3Buoyq%5Csnthk%2Caeicbfpgmj.-%3D%2F%27vr&mode=ergo&lan=english
 [cPM]: https://cyanophage.github.io/playground.html?layout=fpdlx%3Buoybzsnthk%2Caeicqvwgmj-.%27%3D%2F%5Cr&mode=ergo&lan=english
 [cNG]: https://cyanophage.github.io/playground.html?layout=byou%27%3Bldwvzciea%2C.htsnqgxjk-%2Frmfp%5C%5E&mode=ergo&lan=english
 [cDV]: https://cyanophage.github.io/playground.html?layout=%27%2C.pyfgcrl%2Faoeuidhtns-%3Bqjkxbmwvz%5C%5E&mode=ergo&lan=english
