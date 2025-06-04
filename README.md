@@ -19,9 +19,9 @@ days (start Friday and use weekend), to unlock all letters in [KeyBr] training.
 
 ## Layout
 
-      q y o u ; x l d w z
+      q y o u - x l d w z
     b c i e a , k h t n s v
-      ' / = . - j m g p f
+      ' / = . ; j m g p f
                 r
 
 <!-- vim-markdown-toc GFM -->
@@ -55,7 +55,7 @@ days (start Friday and use weekend), to unlock all letters in [KeyBr] training.
   it can be typed without same-finger bigrams such as `you'd` and `I'd`.
 
 * Comma and semicolon are clustered for cycling f/F/t/T searches in Vim
-  and also to mirror the relative ordering of H and L on the right hand.
+  and also to mirror the relative ordering of K and J on the right hand.
 
 * Though period and comma are reversed in terms of their shifted symbols
   `>` and `<`, this arrangement helps to reduce lateral stretch bigrams
@@ -118,7 +118,7 @@ but Oxey's analyzer reports a notable reduction in SFBs from 0.829% to 0.818%.
 
 Overall stats:
 * Total Word Effort: 748.5
-* Effort:            432.84
+* Effort:            432.54
 
 Finger usage:
 * Same Finger Bigrams: 0.55%
@@ -151,8 +151,8 @@ Trigram stats:
 
 Overall stats:
 
-    BIGRAMS     SFB: 0.97%      LSB: 0.44%      HSB: 4.78%      FSB: 0.35%
-    SKIPGRAMS   SFS: 6.99%      LSS: 0.92%      HSS: 4.63%      FSS: 0.38%
+    BIGRAMS     SFB: 0.97%      LSB: 0.44%      HSB: 4.79%      FSB: 0.35%
+    SKIPGRAMS   SFS: 6.99%      LSS: 0.92%      HSS: 4.66%      FSS: 0.38%
     TRIGRAMS    ALT: 41.24%     ROL: 40.71%     ONE: 2.47%      RED: 1.66%
 
 Finger usage:
@@ -163,9 +163,9 @@ Finger usage:
 
 Custom source for copy/paste:
 
-    q y o u ; x l d w z
+    q y o u - x l d w z
     c i e a , k h t n s
-    ' / = . - j m g p f
+    ' / = . ; j m g p f
     r b v
 
 ### [Oxey's analyzer](https://oxey.dev/playground/index.html)
@@ -242,7 +242,7 @@ and you'll see that Enthium is among the best (statistically) layouts there:
 
 For completeness, I've tabulated all [statistics for this and related layouts]( stats/ ):
 
-[cNT]: https://cyanophage.github.io/playground.html?layout=zwdlx%3Buoyq%5Csnthk%2Caeicbfpgmj-.%3D%2F%27vr&mode=ergo&lan=english
+[cNT]: https://cyanophage.github.io/playground.html?layout=zwdlx-uoyq%5Csnthk%2Caeicbfpgmj%3B.%3D%2F%27vr&mode=ergo&lan=english
 [cPM]: https://cyanophage.github.io/playground.html?layout=fpdlx%3Buoybzsnthk%2Caeicqvwgmj-.%27%3D%2F%5Cr&mode=ergo&lan=english
 [cNG]: https://cyanophage.github.io/playground.html?layout=byou%27%3Bldwvzciea%2C.htsnqgxjk-%2Frmfp%5C%5E&mode=ergo&lan=english
 [cDV]: https://cyanophage.github.io/playground.html?layout=%27%2C.pyfgcrl%2Faoeuidhtns-%3Bqjkxbmwvz%5C%5E&mode=ergo&lan=english
@@ -288,11 +288,11 @@ For completeness, I've tabulated all [statistics for this and related layouts]( 
 | Oxey's     | SFB%      | Finger 9            | 0.024%         | 0.011%            | 0.058%           | 0.220%        | 0.007%            |
 | KeySolve   | Bigrams   | SFB                 | 0.97%          | 0.94%             | 1.56%            | 2.62%         | 1.49%             |
 | KeySolve   | Bigrams   | LSB                 | 0.44%          | 0.45%             | 0.98%            | 1.17%         | 2.21%             |
-| KeySolve   | Bigrams   | HSB                 | 4.78%          | 6.04%             | 3.02%            | 6.11%         | 5.93%             |
+| KeySolve   | Bigrams   | HSB                 | 4.79%          | 6.04%             | 3.02%            | 6.11%         | 5.93%             |
 | KeySolve   | Bigrams   | FSB                 | 0.35%          | 0.26%             | 0.30%            | 0.14%         | 0.37%             |
 | KeySolve   | Skipgrams | SFS                 | 6.99%          | 7.02%             | 7.50%            | 7.00%         | 7.95%             |
 | KeySolve   | Skipgrams | LSS                 | 0.92%          | 0.93%             | 1.34%            | 4.48%         | 1.75%             |
-| KeySolve   | Skipgrams | HSS                 | 4.63%          | 6.11%             | 6.91%            | 8.56%         | 6.49%             |
+| KeySolve   | Skipgrams | HSS                 | 4.66%          | 6.11%             | 6.91%            | 8.56%         | 6.49%             |
 | KeySolve   | Skipgrams | FSS                 | 0.38%          | 0.78%             | 0.81%            | 1.22%         | 0.78%             |
 | KeySolve   | Trigrams  | ALT                 | 41.24%         | 40.37%            | 39.59%           | 41.70%        | 27.58%            |
 | KeySolve   | Trigrams  | ROL                 | 40.71%         | 40.84%            | 39.35%           | 37.19%        | 42.78%            |
@@ -309,7 +309,7 @@ For completeness, I've tabulated all [statistics for this and related layouts]( 
 | KeySolve   | Total     | LH                  | 45.83%         | 47.18%            | 48.75%           | 46.31%        | 44.46%            |
 | KeySolve   | Total     | RH                  | 54.17%         | 52.82%            | 51.25%           | 53.69%        | 55.54%            |
 | Cyanophage | Summary   | Total Word Effort   | 748.5          | 732.3             | 899.8            | 1185.5        | 1048.2            |
-| Cyanophage | Summary   | Effort              | 432.84         | 398.07            | 457.44           | 769.78        | 535.05            |
+| Cyanophage | Summary   | Effort              | 432.54         | 398.07            | 457.44           | 769.78        | 535.05            |
 | Cyanophage | Bigrams   | Same Finger Bigrams | 0.55%          | 0.58%             | 0.99%            | 1.87%         | 0.91%             |
 | Cyanophage | Bigrams   | Skip Bigrams (2u)   | 0.29%          | 0.36%             | 0.39%            | 0.45%         | 0.41%             |
 | Cyanophage | Bigrams   | Lat Stretch Bigrams | 0.23%          | 0.24%             | 0.41%            | 0.80%         | 1.27%             |

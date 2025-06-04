@@ -4,9 +4,9 @@
 //           https://github.com/sunaku/enthium
 //
 // ` 1 2 3 4 5 6 7 8 9 0 cl ra
-//   Q Y O U ; X L D W Z
+//   Q Y O U - X L D W Z
 // B C I E A , K H T N S V
-//   ' / = . - J M G P F
+//   ' / = . ; J M G P F
 //             R
 //
 // B displaces cl (Caps Lock).
@@ -21,7 +21,7 @@ xkb_symbols "enthium"
 	key <AD02> { [            y,           Y ] }; // yY
 	key <AD03> { [            o,           O ] }; // oO
 	key <AD04> { [            u,           U ] }; // uU
-	key <AD05> { [    semicolon,       colon ] }; // ;:
+	key <AD05> { [        minus,  underscore ] }; // -_
 	key <AD06> { [            x,           X ] }; // xX
 	key <AD07> { [            l,           L ] }; // lL
 	key <AD08> { [            d,           D ] }; // dD
@@ -44,7 +44,7 @@ xkb_symbols "enthium"
 	key <AB02> { [        slash,    question ] }; // /?
 	key <AB03> { [        equal,        plus ] }; // =+
 	key <AB04> { [       period,     greater ] }; // .>
-	key <AB05> { [        minus,  underscore ] }; // -_
+	key <AB05> { [    semicolon,       colon ] }; // ;:
 	key <AB06> { [            j,           J ] }; // jJ
 	key <AB07> { [            m,           M ] }; // mM
 	key <AB08> { [            g,           G ] }; // gG
