@@ -4,7 +4,7 @@ finger 1: 	9.08% 	finger 8: 	10.65%
 finger 2: 	19.30% 	finger 7: 	14.56%
 finger 3: 	13.28% 	finger 6: 	12.33%
 Left hand: 45.29% 	Right hand: 46.14%
-Left center: 2.238% 	Right center: 1.189%
+Left center: 1.384% 	Right center: 1.189%
 Home keys usage: 56.37%
 Sfb% per finger:
 finger 0: 	0.011% 	finger 9: 	0.024%
@@ -13,7 +13,7 @@ finger 2: 	0.122% 	finger 7: 	0.051%
 finger 3: 	0.339% 	finger 6: 	0.114%
 Sfb:  0.811%
 Dsfb: 6.286%
-Lsb:  0.533%
+Lsb:  0.372%
 Inrolls: 29.442%
 Outrolls: 15.841%
 Total Rolls: 45.283%

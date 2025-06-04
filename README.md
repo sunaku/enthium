@@ -21,7 +21,7 @@ days (start Friday and use weekend), to unlock all letters in [KeyBr] training.
 
       q y o u ; x l d w z
     b c i e a , k h t n s v
-      ' / = - . j m g p f
+      ' / = . - j m g p f
                 r
 
 <!-- vim-markdown-toc GFM -->
@@ -48,18 +48,24 @@ days (start Friday and use weekend), to unlock all letters in [KeyBr] training.
 
 * Q and Z are split apart onto different hands for balance and symmetry.
 
+* B and V are on the home row's lateral pinky keys (CapsLock, Apostrophe)
+  to avoid reaching up for folks with short or [weakened pinky fingers].
+
 * Apostrophe is away (on a different finger entirely) from YOU and I so
   it can be typed without same-finger bigrams such as `you'd` and `I'd`.
 
-* Cluster minus and equals for intuitive zoom in/out shortcuts with Ctrl.
-  Also put minus on index finger (just like comma, period, and semicolon)
-  for consistent responsibility of word/sentence delimiting punctuation.
+* Comma and semicolon are clustered for cycling f/F/t/T searches in Vim
+  and also to mirror the relative ordering of H and L on the right hand.
 
-* Cluster comma and semicolon for prev/next jumping in Vim for f/F/t/T.
-  This also mirrors the relative ordering of H and L on the right hand.
+* Though period and comma are reversed in terms of their shifted symbols
+  `>` and `<`, this arrangement helps to reduce lateral stretch bigrams
+  and also stacks them vertically on traditional row-staggered keyboards.
 
-* Stack comma and period for their shifted symbols `<>` to be raked down
-  vertically, and cluster with minus and equals for `->` and `=>` arrows.
+* Minus is on the index finger (just like comma, period, and semicolon)
+  for consistent responsibility of word/sentence delimiting punctuation
+  and for ease of access to the frequent `_` underscore in programming.
+
+[weakened pinky fingers]: https://reddit.com/r/KeyboardLayouts/comments/1fy8nve/_/lqulnww/
 
 ### Deviation: PF and WV
 
@@ -91,8 +97,7 @@ entry for others seeking to switch over to Enthium from the Engrammer layout. :)
 ### Deviation: B and V
 
 B and V are rotated out from the upper row to the home row lateral in order to
-avoid reaching up with short pinky fingers or those [weakened by convention](
-https://reddit.com/r/KeyboardLayouts/comments/1fy8nve/_/lqulnww/ ).  Their keys
+avoid reaching up for folks with short or [weakened pinky fingers].  Their keys
 are reassigned to the least frequent letters in the English language: Q and Z.
 
 In the Cyanophage analyzer, this change reduces Pinky/Ring Scissors from 0.49%
@@ -113,12 +118,12 @@ but Oxey's analyzer reports a notable reduction in SFBs from 0.829% to 0.818%.
 
 Overall stats:
 * Total Word Effort: 748.5
-* Effort:            461.58
+* Effort:            432.84
 
 Finger usage:
 * Same Finger Bigrams: 0.55%
 * Skip Bigrams (2u):   0.29%
-* Lat Stretch Bigrams: 0.34%
+* Lat Stretch Bigrams: 0.23%
 * Pinky/Ring Scissors: 0.34%
 
 Trigram stats:
@@ -146,8 +151,8 @@ Trigram stats:
 
 Overall stats:
 
-    BIGRAMS     SFB: 0.97%      LSB: 0.85%      HSB: 4.78%      FSB: 0.35%
-    SKIPGRAMS   SFS: 6.99%      LSS: 1.37%      HSS: 4.63%      FSS: 0.38%
+    BIGRAMS     SFB: 0.97%      LSB: 0.44%      HSB: 4.78%      FSB: 0.35%
+    SKIPGRAMS   SFS: 6.99%      LSS: 0.92%      HSS: 4.63%      FSS: 0.38%
     TRIGRAMS    ALT: 41.24%     ROL: 40.71%     ONE: 2.47%      RED: 1.66%
 
 Finger usage:
@@ -160,7 +165,7 @@ Custom source for copy/paste:
 
     q y o u ; x l d w z
     c i e a , k h t n s
-    ' / = - . j m g p f
+    ' / = . - j m g p f
     r b v
 
 ### [Oxey's analyzer](https://oxey.dev/playground/index.html)
@@ -176,7 +181,7 @@ Custom source for copy/paste:
 Overall stats:
 * Sfb:              0.811%
 * Dsfb:             6.286%
-* Lsb:              0.533%
+* Lsb:              0.372%
 * Inrolls:          29.442%
 * Outrolls:         15.841%
 * Total Rolls:      45.283%
@@ -198,7 +203,7 @@ Finger usage:
     finger 3:   13.28%  finger 6:       12.33%
 
     Left hand:   45.29% Right hand:     46.14%
-    Left center: 2.238% Right center:   1.189%
+    Left center: 1.384% Right center:   1.189%
 
     Home keys usage: 56.37%
 
@@ -223,8 +228,8 @@ The [keyboard layout community][rKL] commonly recommends [Pascal Getreuer's
 guide and comparison table][PGt] as a starting point for layout exploration,
 and you'll see that Enthium is among the best (statistically) layouts there:
 
-* 0.811% SFBs -- wins 🥈 second place; surpassed only by Focal
-* 0.533% LSBs -- wins 🥈 second place; surpassed only by Focal
+* 0.811% SFBs -- wins 🥈 second place; surpassed by Focal
+* 0.372% LSBs -- wins 🥇 first place; beats entire table!
 * 45.283% rolls -- beats Nerps, Gallium, MTGAP, Graphite, Dvorak, Halmak, etc.
 * 4.866% redirects -- beats MTGAP, Sturdy, Recurva, APTv3, Canary, Colemak, etc.
 * 2.80% pinky off _excluding_ lateral -- beats Graphite, Canary, Gallium, MTGAP, etc.
@@ -237,7 +242,7 @@ and you'll see that Enthium is among the best (statistically) layouts there:
 
 For completeness, I've tabulated all [statistics for this and related layouts]( stats/ ):
 
-[cNT]: https://cyanophage.github.io/playground.html?layout=zwdlx%3Buoyq%5Csnthk%2Caeicbfpgmj.-%3D%2F%27vr&mode=ergo&lan=english
+[cNT]: https://cyanophage.github.io/playground.html?layout=zwdlx%3Buoyq%5Csnthk%2Caeicbfpgmj-.%3D%2F%27vr&mode=ergo&lan=english
 [cPM]: https://cyanophage.github.io/playground.html?layout=fpdlx%3Buoybzsnthk%2Caeicqvwgmj-.%27%3D%2F%5Cr&mode=ergo&lan=english
 [cNG]: https://cyanophage.github.io/playground.html?layout=byou%27%3Bldwvzciea%2C.htsnqgxjk-%2Frmfp%5C%5E&mode=ergo&lan=english
 [cDV]: https://cyanophage.github.io/playground.html?layout=%27%2C.pyfgcrl%2Faoeuidhtns-%3Bqjkxbmwvz%5C%5E&mode=ergo&lan=english
@@ -247,7 +252,7 @@ For completeness, I've tabulated all [statistics for this and related layouts]( 
 | ---------- | --------- | ------------------- | -------------- | ----------------- | ---------------- | ------------- | ----------------- |
 | Oxey's     | Bigrams   | SFB                 | 0.811%         | 0.868%            | 1.511%           | 2.779%        | 1.367%            |
 | Oxey's     | Bigrams   | DSFB                | 6.286%         | 6.761%            | 7.620%           | 6.979%        | 8.767%            |
-| Oxey's     | Bigrams   | LSB                 | 0.533%         | 0.404%            | 0.671%           | 1.255%        | 1.975%            |
+| Oxey's     | Bigrams   | LSB                 | 0.372%         | 0.404%            | 0.671%           | 1.255%        | 1.975%            |
 | Oxey's     | Trigrams  | Inrolls             | 29.442%        | 29.333%           | 28.273%          | 23.820%       | 25.173%           |
 | Oxey's     | Trigrams  | Outrolls            | 15.841%        | 14.526%           | 14.050%          | 15.104%       | 20.940%           |
 | Oxey's     | Trigrams  | Total Rolls         | 45.283%        | 43.858%           | 42.323%          | 38.924%       | 46.113%           |
@@ -270,7 +275,7 @@ For completeness, I've tabulated all [statistics for this and related layouts]( 
 | Oxey's     | Usage     | Finger 9            | 8.60%          | 4.62%             | 9.90%            | 10.59%        | 7.77%             |
 | Oxey's     | Usage     | Left hand           | 45.29%         | 47.10%            | 48.61%           | 45.16%        | 46.89%            |
 | Oxey's     | Usage     | Right hand          | 46.14%         | 46.68%            | 51.18%           | 54.49%        | 52.36%            |
-| Oxey's     | Usage     | Left center         | 2.238%         | 1.189%            | 1.765%           | 9.208%        | 4.592%            |
+| Oxey's     | Usage     | Left center         | 1.384%         | 1.189%            | 1.765%           | 9.208%        | 4.592%            |
 | Oxey's     | Usage     | Right center        | 1.189%         | 1.384%            | 1.294%           | 7.257%        | 3.393%            |
 | Oxey's     | Usage     | Home keys           | 56.37%         | 56.37%            | 56.37%           | 56.70%        | 62.31%            |
 | Oxey's     | SFB%      | Finger 0            | 0.011%         | 0.028%            | 0.012%           | 0.020%        | 0.041%            |
@@ -282,11 +287,11 @@ For completeness, I've tabulated all [statistics for this and related layouts]( 
 | Oxey's     | SFB%      | Finger 8            | 0.100%         | 0.040%            | 0.098%           | 0.256%        | 0.137%            |
 | Oxey's     | SFB%      | Finger 9            | 0.024%         | 0.011%            | 0.058%           | 0.220%        | 0.007%            |
 | KeySolve   | Bigrams   | SFB                 | 0.97%          | 0.94%             | 1.56%            | 2.62%         | 1.49%             |
-| KeySolve   | Bigrams   | LSB                 | 0.85%          | 0.45%             | 0.98%            | 1.17%         | 2.21%             |
+| KeySolve   | Bigrams   | LSB                 | 0.44%          | 0.45%             | 0.98%            | 1.17%         | 2.21%             |
 | KeySolve   | Bigrams   | HSB                 | 4.78%          | 6.04%             | 3.02%            | 6.11%         | 5.93%             |
 | KeySolve   | Bigrams   | FSB                 | 0.35%          | 0.26%             | 0.30%            | 0.14%         | 0.37%             |
 | KeySolve   | Skipgrams | SFS                 | 6.99%          | 7.02%             | 7.50%            | 7.00%         | 7.95%             |
-| KeySolve   | Skipgrams | LSS                 | 1.37%          | 0.93%             | 1.34%            | 4.48%         | 1.75%             |
+| KeySolve   | Skipgrams | LSS                 | 0.92%          | 0.93%             | 1.34%            | 4.48%         | 1.75%             |
 | KeySolve   | Skipgrams | HSS                 | 4.63%          | 6.11%             | 6.91%            | 8.56%         | 6.49%             |
 | KeySolve   | Skipgrams | FSS                 | 0.38%          | 0.78%             | 0.81%            | 1.22%         | 0.78%             |
 | KeySolve   | Trigrams  | ALT                 | 41.24%         | 40.37%            | 39.59%           | 41.70%        | 27.58%            |
@@ -304,10 +309,10 @@ For completeness, I've tabulated all [statistics for this and related layouts]( 
 | KeySolve   | Total     | LH                  | 45.83%         | 47.18%            | 48.75%           | 46.31%        | 44.46%            |
 | KeySolve   | Total     | RH                  | 54.17%         | 52.82%            | 51.25%           | 53.69%        | 55.54%            |
 | Cyanophage | Summary   | Total Word Effort   | 748.5          | 732.3             | 899.8            | 1185.5        | 1048.2            |
-| Cyanophage | Summary   | Effort              | 461.58         | 398.07            | 457.44           | 769.78        | 535.05            |
+| Cyanophage | Summary   | Effort              | 432.84         | 398.07            | 457.44           | 769.78        | 535.05            |
 | Cyanophage | Bigrams   | Same Finger Bigrams | 0.55%          | 0.58%             | 0.99%            | 1.87%         | 0.91%             |
 | Cyanophage | Bigrams   | Skip Bigrams (2u)   | 0.29%          | 0.36%             | 0.39%            | 0.45%         | 0.41%             |
-| Cyanophage | Bigrams   | Lat Stretch Bigrams | 0.34%          | 0.24%             | 0.41%            | 0.80%         | 1.27%             |
+| Cyanophage | Bigrams   | Lat Stretch Bigrams | 0.23%          | 0.24%             | 0.41%            | 0.80%         | 1.27%             |
 | Cyanophage | Bigrams   | Pinky/Ring Scissors | 0.34%          | 0.42%             | 0.71%            | 0.40%         | 0.65%             |
 | Cyanophage | Trigrams  | Alt                 | 37.45%         | 36.98%            | 35.62%           | 39.08%        | 25.43%            |
 | Cyanophage | Trigrams  | Alt SFS             | 5.10%          | 5.27%             | 5.93%            | 5.85%         | 5.47%             |

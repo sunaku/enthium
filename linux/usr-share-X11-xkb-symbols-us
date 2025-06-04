@@ -6,7 +6,7 @@
 // ` 1 2 3 4 5 6 7 8 9 0 cl ra
 //   Q Y O U ; X L D W Z
 // B C I E A , K H T N S V
-//   ' / = - . J M G P F
+//   ' / = . - J M G P F
 //             R
 //
 // B displaces cl (Caps Lock).
@@ -43,8 +43,8 @@ xkb_symbols "enthium"
 	key <AB01> { [   apostrophe,    quotedbl ] }; // '"
 	key <AB02> { [        slash,    question ] }; // /?
 	key <AB03> { [        equal,        plus ] }; // =+
-	key <AB04> { [        minus,  underscore ] }; // -_
-	key <AB05> { [       period,     greater ] }; // .>
+	key <AB04> { [       period,     greater ] }; // .>
+	key <AB05> { [        minus,  underscore ] }; // -_
 	key <AB06> { [            j,           J ] }; // jJ
 	key <AB07> { [            m,           M ] }; // mM
 	key <AB08> { [            g,           G ] }; // gG
