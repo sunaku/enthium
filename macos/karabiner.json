@@ -101,7 +101,7 @@
                                     "key_code": "t",
                                     "modifiers": { "optional": ["any"] }
                                 },
-                                "to": [{ "key_code": "semicolon" }],
+                                "to": [{ "key_code": "hyphen" }],
                                 "type": "basic"
                             },
                             {
@@ -451,7 +451,7 @@
                                     "key_code": "b",
                                     "modifiers": { "optional": ["any"] }
                                 },
-                                "to": [{ "key_code": "hyphen" }],
+                                "to": [{ "key_code": "semicolon" }],
                                 "type": "basic"
                             },
                             {
