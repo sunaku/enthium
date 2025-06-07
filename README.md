@@ -1,6 +1,10 @@
 # Enthium - Engrammer meets Hands Down Promethium
 
-This adaptation of the [Engrammer] and [Hands Down Promethium] keyboard layouts
+![Photograph of Enthium v7 on my Glove80 keyboard](
+https://github.com/sunaku/glove80-keymaps/raw/main/README/base-layer-photograph-Enthium.jpg
+)
+
+[This adaptation] of the [Engrammer] and [Hands Down Promethium] keyboard layouts
 improves on the latter's performance in keyboard layout analyzers (see below)
 by mirroring it horizontally to restore familiarity with [Arno's Engram 2.0]
 layout (CIEA on left hand's home row; PF is swapped with WV to be like Engram)
@@ -11,6 +15,7 @@ Notably, the differences between Engram/mer and Enthium are so minimal that one
 might switch to it completely with about 6 hours of practice, spread over 2-3
 days (start Friday and use weekend), to unlock all letters in [KeyBr] training.
 
+[This adaptation]:       https://sunaku.github.io/enthium-keyboard-layout.html
 [Hands Down Promethium]: https://reddit.com/r/KeyboardLayouts/comments/1g66ivi
 [Arno's Engram 2.0]:     https://engram.dev
 [Engrammer]:             https://github.com/sunaku/engrammer
@@ -23,6 +28,11 @@ days (start Friday and use weekend), to unlock all letters in [KeyBr] training.
     b c i e a , k h t n s v
       ' / = . ; j m g p f
                 r
+
+>![Rendering of Enthium v7 on a laptop keyboard.](linux/layout.png)
+>![Rendering of Enthium v7 on my Glove80 keyboard.](
+https://github.com/sunaku/glove80-keymaps/raw/main/README/base-layer-diagram-Enthium.png
+)
 
 <!-- vim-markdown-toc GFM -->
 
@@ -63,7 +73,11 @@ days (start Friday and use weekend), to unlock all letters in [KeyBr] training.
 
 * Minus is on the index finger (just like comma, period, and semicolon)
   for consistent responsibility of word/sentence delimiting punctuation
-  and for ease of access to the frequent `_` underscore in programming.
+  and for ease of access to the frequent `_` underscore in programming,
+  especially on row-staggered keyboards where its placement follows the
+  left index finger's natural direction of extension, minimizing effort.
+
+* Slash and period allow rolling `/.`, `./`, and `../` filesystem paths.
 
 [weakened pinky fingers]: https://reddit.com/r/KeyboardLayouts/comments/1fy8nve/_/lqulnww/
 
@@ -229,7 +243,7 @@ guide and comparison table][PGt] as a starting point for layout exploration,
 and you'll see that Enthium is among the best (statistically) layouts there:
 
 * 0.811% SFBs -- wins 🥈 second place; surpassed by Focal
-* 0.372% LSBs -- wins 🥇 first place; beats entire table!
+* 0.372% LSBs -- wins 🥇 first place; beats the entire table!
 * 45.283% rolls -- beats Nerps, Gallium, MTGAP, Graphite, Dvorak, Halmak, etc.
 * 4.866% redirects -- beats MTGAP, Sturdy, Recurva, APTv3, Canary, Colemak, etc.
 * 2.80% pinky off _excluding_ lateral -- beats Graphite, Canary, Gallium, MTGAP, etc.
