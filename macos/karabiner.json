@@ -73,7 +73,7 @@
                                     "key_code": "e",
                                     "modifiers": { "optional": ["any"] }
                                 },
-                                "to": [{ "key_code": "o" }],
+                                "to": [{ "key_code": "u" }],
                                 "type": "basic"
                             },
                             {
@@ -87,7 +87,7 @@
                                     "key_code": "r",
                                     "modifiers": { "optional": ["any"] }
                                 },
-                                "to": [{ "key_code": "u" }],
+                                "to": [{ "key_code": "o" }],
                                 "type": "basic"
                             },
                             {
