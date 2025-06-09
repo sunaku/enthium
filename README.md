@@ -24,9 +24,9 @@ days (start Friday and use weekend), to unlock all letters in [KeyBr] training.
 
 ## Layout
 
-      q y u o - x l d w z
+      q y u o / x l d w z
     b c i e a , k h t n s v
-      ' / = . ; j m g p f
+      ' - = . ; j m g p f
                 r
 
 >![Rendering of Enthium v7 on a laptop keyboard.](linux/layout.png)
@@ -65,20 +65,15 @@ https://github.com/sunaku/glove80-keymaps/raw/main/README/base-layer-diagram-Ent
 * Apostrophe is away (on a different finger entirely) from YOU and I so
   it can be typed without same-finger bigrams such as `you'd` and `I'd`.
 
+* Minus and equals are clustered for intuitive zooming in/out with Ctrl.
+
 * Comma and semicolon are clustered for cycling f/F/t/T searches in Vim
   and also to mirror the relative ordering of K and J on the right hand.
 
 * Though period and comma are reversed in terms of their shifted symbols
   `>` and `<`, this arrangement helps to reduce lateral stretch bigrams
-  and also stacks them vertically on traditional row-staggered keyboards.
-
-* Minus is on the index finger (just like comma, period, and semicolon)
-  for consistent responsibility of word/sentence delimiting punctuation
-  and for ease of access to the frequent `_` underscore in programming,
-  especially on row-staggered keyboards where its placement follows the
-  left index finger's natural direction of extension, minimizing effort.
-
-* Slash and period allow rolling `/.`, `./`, and `../` filesystem paths.
+  while clustering `>` with minus and equals for `->` and `=>` arrows
+  and stacking them vertically on traditional row-staggered keyboards.
 
 [weakened pinky fingers]: https://reddit.com/r/KeyboardLayouts/comments/1fy8nve/_/lqulnww/
 
@@ -146,22 +141,22 @@ for both SFB and LSB categories!
 
 Overall stats:
 * Total Word Effort: 733.1
-* Effort:            445.14
+* Effort:            442.98
 
 Finger usage:
-* Same Finger Bigrams: 0.49%
-* Skip Bigrams (2u):   0.34%
-* Lat Stretch Bigrams: 0.20%
+* Same Finger Bigrams: 0.48%
+* Skip Bigrams (2u):   0.35%
+* Lat Stretch Bigrams: 0.18%
 * Pinky/Ring Scissors: 0.34%
 
 Trigram stats:
-* alt:             37.88%
-* bigram roll in:  27.54%
-* bigram roll out: 16.48%
-* other:           7.95%
-* alt sfs:         4.67%
-* redirect:        2.84%
-* weak redirect:   1.37%
+* alt:             37.93%
+* bigram roll in:  27.53%
+* bigram roll out: 16.51%
+* other:           7.92%
+* alt sfs:         4.62%
+* redirect:        2.83%
+* weak redirect:   1.39%
 * roll in:         0.89%
 * roll out:        0.37%
 
@@ -179,21 +174,21 @@ Trigram stats:
 
 Overall stats:
 
-    BIGRAMS     SFB: 0.76%      LSB: 0.43%      HSB: 4.86%      FSB: 0.35%
-    SKIPGRAMS   SFS: 6.33%      LSS: 0.73%      HSS: 5.88%      FSS: 0.38%
-    TRIGRAMS    ALT: 41.24%     ROL: 41.16%     ONE: 1.29%      RED: 2.93%
+    BIGRAMS     SFB: 0.76%      LSB: 0.40%      HSB: 4.87%      FSB: 0.36%
+    SKIPGRAMS   SFS: 6.30%      LSS: 0.68%      HSS: 5.90%      FSS: 0.42%
+    TRIGRAMS    ALT: 41.24%     ROL: 41.15%     ONE: 1.29%      RED: 2.93%
 
 Finger usage:
 
-    LEFT        LI: 18.75%      LM: 15.33%      LR: 8.70%       LP: 3.05%
+    LEFT        LI: 18.61%      LM: 15.33%      LR: 8.84%       LP: 3.05%
     RIGHT       RI: 13.12%      RM: 14.59%      RR: 10.60%      RP: 7.94%
     TOTAL               LH: 45.83%                      RH: 54.17%
 
 Custom source for copy/paste:
 
-    q y u o - x l d w z
+    q y u o / x l d w z
     c i e a , k h t n s
-    ' / = . ; j m g p f
+    ' - = . ; j m g p f
     r b v
 
 ### [Oxey's analyzer](https://oxey.dev/playground/index.html)
@@ -207,40 +202,40 @@ Custom source for copy/paste:
 ![Screenshot](stats/enthium/oxey.png)
 
 Overall stats:
-* Sfb:              0.795%
-* Dsfb:             6.360%
-* Lsb:              0.328%
-* Inrolls:          27.415%
-* Outrolls:         16.531%
-* Total Rolls:      43.945%
-* Onehands:         1.579%
-* Alternates:       34.297%
-* Alternates (sfs): 7.962%
+* Sfb:              0.783%
+* Dsfb:             6.279%
+* Lsb:              0.292%
+* Inrolls:          27.399%
+* Outrolls:         16.566%
+* Total Rolls:      43.966%
+* Onehands:         1.576%
+* Alternates:       34.349%
+* Alternates (sfs): 7.910%
 * Total Alternates: 42.259%
 * Redirects:        2.955%
-* BadRedirects:     1.033%
-* Total Redirects:  3.988%
-* Other:            8.228%
+* BadRedirects:     1.043%
+* Total Redirects:  3.998%
+* Other:            8.202%
 * Invalid:          0.001%
 
 Finger usage:
 
     finger 0:   3.63%   finger 9:       8.60%
-    finger 1:   9.08%   finger 8:       10.65%
+    finger 1:   9.25%   finger 8:       10.65%
     finger 2:   14.58%  finger 7:       14.56%
-    finger 3:   18.00%  finger 6:       12.33%
+    finger 3:   17.83%  finger 6:       12.33%
 
     Left hand:   45.29% Right hand:     46.14%
-    Left center: 1.384% Right center:   1.189%
+    Left center: 1.211% Right center:   1.189%
 
     Home keys usage: 56.37%
 
 Sfb% per finger:
 
     finger 0:   0.011%  finger 9:       0.024%
-    finger 1:   0.047%  finger 8:       0.100%
+    finger 1:   0.071%  finger 8:       0.100%
     finger 2:   0.148%  finger 7:       0.051%
-    finger 3:   0.237%  finger 6:       0.114%
+    finger 3:   0.202%  finger 6:       0.114%
 
 ### Comparison
 
@@ -270,7 +265,7 @@ and you'll see that Enthium is among the best (statistically) layouts there:
 
 For completeness, I've tabulated all [statistics for this and related layouts]( stats/ ):
 
-[cNT]: https://cyanophage.github.io/playground.html?layout=zwdlx-ouyq%5Csnthk%2Caeicbfpgmj%3B.%3D%2F%27vr&mode=ergo&lan=english
+[cNT]: https://cyanophage.github.io/playground.html?layout=zwdlx%2Fouyq%5Csnthk%2Caeicbfpgmj%3B.%3D-%27vr&mode=ergo&lan=english
 [cPM]: https://cyanophage.github.io/playground.html?layout=fpdlx%3Buoybzsnthk%2Caeicqvwgmj-.%27%3D%2F%5Cr&mode=ergo&lan=english
 [cNG]: https://cyanophage.github.io/playground.html?layout=byou%27%3Bldwvzciea%2C.htsnqgxjk-%2Frmfp%5C%5E&mode=ergo&lan=english
 [cDV]: https://cyanophage.github.io/playground.html?layout=%27%2C.pyfgcrl%2Faoeuidhtns-%3Bqjkxbmwvz%5C%5E&mode=ergo&lan=english
@@ -278,38 +273,38 @@ For completeness, I've tabulated all [statistics for this and related layouts]( 
 
 | Analyzer   | Category  | Statistic           | [Enthium][cNT] | [Promethium][cPM] | [Engrammer][cNG] | [Dvorak][cDV] | [Colemak-DH][cCD] |
 | ---------- | --------- | ------------------- | -------------- | ----------------- | ---------------- | ------------- | ----------------- |
-| Oxey's     | Bigrams   | SFB                 | 0.795%         | 0.868%            | 1.511%           | 2.779%        | 1.367%            |
-| Oxey's     | Bigrams   | DSFB                | 6.360%         | 6.761%            | 7.620%           | 6.979%        | 8.767%            |
-| Oxey's     | Bigrams   | LSB                 | 0.328%         | 0.404%            | 0.671%           | 1.255%        | 1.975%            |
-| Oxey's     | Trigrams  | Inrolls             | 27.415%        | 29.333%           | 28.273%          | 23.820%       | 25.173%           |
-| Oxey's     | Trigrams  | Outrolls            | 16.531%        | 14.526%           | 14.050%          | 15.104%       | 20.940%           |
-| Oxey's     | Trigrams  | Total Rolls         | 43.945%        | 43.858%           | 42.323%          | 38.924%       | 46.113%           |
-| Oxey's     | Trigrams  | Onehands            | 1.579%         | 2.189%            | 2.146%           | 0.624%        | 2.484%            |
-| Oxey's     | Trigrams  | Alternates          | 34.297%        | 33.770%           | 32.483%          | 35.769%       | 22.913%           |
-| Oxey's     | Trigrams  | Alternates (SFS)    | 7.962%         | 8.205%            | 8.752%           | 8.787%        | 7.461%            |
+| Oxey's     | Bigrams   | SFB                 | 0.783%         | 0.868%            | 1.511%           | 2.779%        | 1.367%            |
+| Oxey's     | Bigrams   | DSFB                | 6.279%         | 6.761%            | 7.620%           | 6.979%        | 8.767%            |
+| Oxey's     | Bigrams   | LSB                 | 0.292%         | 0.404%            | 0.671%           | 1.255%        | 1.975%            |
+| Oxey's     | Trigrams  | Inrolls             | 27.399%        | 29.333%           | 28.273%          | 23.820%       | 25.173%           |
+| Oxey's     | Trigrams  | Outrolls            | 16.566%        | 14.526%           | 14.050%          | 15.104%       | 20.940%           |
+| Oxey's     | Trigrams  | Total Rolls         | 43.966%        | 43.858%           | 42.323%          | 38.924%       | 46.113%           |
+| Oxey's     | Trigrams  | Onehands            | 1.576%         | 2.189%            | 2.146%           | 0.624%        | 2.484%            |
+| Oxey's     | Trigrams  | Alternates          | 34.349%        | 33.770%           | 32.483%          | 35.769%       | 22.913%           |
+| Oxey's     | Trigrams  | Alternates (SFS)    | 7.910%         | 8.205%            | 8.752%           | 8.787%        | 7.461%            |
 | Oxey's     | Trigrams  | Total Alternates    | 42.259%        | 41.974%           | 41.235%          | 44.556%       | 30.375%           |
 | Oxey's     | Trigrams  | Redirects           | 2.955%         | 2.273%            | 3.103%           | 2.639%        | 9.081%            |
-| Oxey's     | Trigrams  | BadRedirects        | 1.033%         | 1.236%            | 1.386%           | 0.818%        | 1.498%            |
-| Oxey's     | Trigrams  | Total Redirects     | 3.988%         | 3.509%            | 4.489%           | 3.458%        | 10.579%           |
-| Oxey's     | Trigrams  | Other               | 8.228%         | 8.468%            | 9.806%           | 12.437%       | 9.202%            |
+| Oxey's     | Trigrams  | BadRedirects        | 1.043%         | 1.236%            | 1.386%           | 0.818%        | 1.498%            |
+| Oxey's     | Trigrams  | Total Redirects     | 3.998%         | 3.509%            | 4.489%           | 3.458%        | 10.579%           |
+| Oxey's     | Trigrams  | Other               | 8.202%         | 8.468%            | 9.806%           | 12.437%       | 9.202%            |
 | Oxey's     | Trigrams  | Invalid             | 0.001%         | 0.001%            | 0.001%           | 0.001%        | 1.248%            |
 | Oxey's     | Usage     | Finger 0            | 3.63%          | 9.56%             | 6.58%            | 8.50%         | 8.12%             |
-| Oxey's     | Usage     | Finger 1            | 9.08%          | 10.65%            | 9.21%            | 8.72%         | 8.04%             |
+| Oxey's     | Usage     | Finger 1            | 9.25%          | 10.65%            | 9.21%            | 8.72%         | 8.04%             |
 | Oxey's     | Usage     | Finger 2            | 14.58%         | 14.56%            | 19.47%           | 12.99%        | 11.55%            |
-| Oxey's     | Usage     | Finger 3            | 18.00%         | 12.33%            | 13.35%           | 14.95%        | 19.19%            |
+| Oxey's     | Usage     | Finger 3            | 17.83%         | 12.33%            | 13.35%           | 14.95%        | 19.19%            |
 | Oxey's     | Usage     | Finger 6            | 12.33%         | 13.28%            | 16.04%           | 16.33%        | 18.88%            |
 | Oxey's     | Usage     | Finger 7            | 14.56%         | 19.77%            | 14.93%           | 13.73%        | 15.60%            |
 | Oxey's     | Usage     | Finger 8            | 10.65%         | 9.01%             | 10.31%           | 13.84%        | 10.11%            |
 | Oxey's     | Usage     | Finger 9            | 8.60%          | 4.62%             | 9.90%            | 10.59%        | 7.77%             |
 | Oxey's     | Usage     | Left hand           | 45.29%         | 47.10%            | 48.61%           | 45.16%        | 46.89%            |
 | Oxey's     | Usage     | Right hand          | 46.14%         | 46.68%            | 51.18%           | 54.49%        | 52.36%            |
-| Oxey's     | Usage     | Left center         | 1.384%         | 1.189%            | 1.765%           | 9.208%        | 4.592%            |
+| Oxey's     | Usage     | Left center         | 1.211%         | 1.189%            | 1.765%           | 9.208%        | 4.592%            |
 | Oxey's     | Usage     | Right center        | 1.189%         | 1.384%            | 1.294%           | 7.257%        | 3.393%            |
 | Oxey's     | Usage     | Home keys           | 56.37%         | 56.37%            | 56.37%           | 56.70%        | 62.31%            |
 | Oxey's     | SFB%      | Finger 0            | 0.011%         | 0.028%            | 0.012%           | 0.020%        | 0.041%            |
-| Oxey's     | SFB%      | Finger 1            | 0.047%         | 0.100%            | 0.089%           | 0.028%        | 0.047%            |
+| Oxey's     | SFB%      | Finger 1            | 0.071%         | 0.100%            | 0.089%           | 0.028%        | 0.047%            |
 | Oxey's     | SFB%      | Finger 2            | 0.148%         | 0.051%            | 0.230%           | 0.253%        | 0.186%            |
-| Oxey's     | SFB%      | Finger 3            | 0.237%         | 0.114%            | 0.591%           | 1.075%        | 0.219%            |
+| Oxey's     | SFB%      | Finger 3            | 0.202%         | 0.114%            | 0.591%           | 1.075%        | 0.219%            |
 | Oxey's     | SFB%      | Finger 6            | 0.114%         | 0.339%            | 0.380%           | 0.433%        | 0.388%            |
 | Oxey's     | SFB%      | Finger 7            | 0.051%         | 0.185%            | 0.053%           | 0.494%        | 0.341%            |
 | Oxey's     | SFB%      | Finger 8            | 0.100%         | 0.040%            | 0.098%           | 0.256%        | 0.137%            |
@@ -326,9 +321,9 @@ For completeness, I've tabulated all [statistics for this and related layouts]( 
 | KeySolve   | Trigrams  | ROL                 | 41.16%         | 40.84%            | 39.35%           | 37.19%        | 42.78%            |
 | KeySolve   | Trigrams  | ONE                 | 1.29%          | 2.66%             | 2.65%            | 0.43%         | 2.45%             |
 | KeySolve   | Trigrams  | RED                 | 2.93%          | 1.78%             | 2.65%            | 2.25%         | 6.74%             |
-| KeySolve   | Usage     | LI                  | 18.75%         | 13.91%            | 13.91%           | 14.56%        | 18.82%            |
+| KeySolve   | Usage     | LI                  | 18.61%         | 13.91%            | 13.91%           | 14.56%        | 18.82%            |
 | KeySolve   | Usage     | LM                  | 15.33%         | 20.92%            | 20.30%           | 13.96%        | 10.18%            |
-| KeySolve   | Usage     | LR                  | 8.70%          | 8.70%             | 8.83%            | 9.55%         | 7.83%             |
+| KeySolve   | Usage     | LR                  | 8.84%          | 8.70%             | 8.83%            | 9.55%         | 7.83%             |
 | KeySolve   | Usage     | LP                  | 3.05%          | 3.64%             | 5.72%            | 8.24%         | 7.63%             |
 | KeySolve   | Usage     | RI                  | 13.12%         | 13.12%            | 16.52%           | 16.90%        | 20.00%            |
 | KeySolve   | Usage     | RM                  | 14.59%         | 14.59%            | 15.03%           | 13.35%        | 16.91%            |
@@ -337,20 +332,20 @@ For completeness, I've tabulated all [statistics for this and related layouts]( 
 | KeySolve   | Total     | LH                  | 45.83%         | 47.18%            | 48.75%           | 46.31%        | 44.46%            |
 | KeySolve   | Total     | RH                  | 54.17%         | 52.82%            | 51.25%           | 53.69%        | 55.54%            |
 | Cyanophage | Summary   | Total Word Effort   | 733.1          | 732.3             | 899.8            | 1185.5        | 1048.2            |
-| Cyanophage | Summary   | Effort              | 445.14         | 398.07            | 457.44           | 769.78        | 535.05            |
-| Cyanophage | Bigrams   | Same Finger Bigrams | 0.49%          | 0.58%             | 0.99%            | 1.87%         | 0.91%             |
-| Cyanophage | Bigrams   | Skip Bigrams (2u)   | 0.34%          | 0.36%             | 0.39%            | 0.45%         | 0.41%             |
-| Cyanophage | Bigrams   | Lat Stretch Bigrams | 0.20%          | 0.24%             | 0.41%            | 0.80%         | 1.27%             |
+| Cyanophage | Summary   | Effort              | 442.98         | 398.07            | 457.44           | 769.78        | 535.05            |
+| Cyanophage | Bigrams   | Same Finger Bigrams | 0.48%          | 0.58%             | 0.99%            | 1.87%         | 0.91%             |
+| Cyanophage | Bigrams   | Skip Bigrams (2u)   | 0.35%          | 0.36%             | 0.39%            | 0.45%         | 0.41%             |
+| Cyanophage | Bigrams   | Lat Stretch Bigrams | 0.18%          | 0.24%             | 0.41%            | 0.80%         | 1.27%             |
 | Cyanophage | Bigrams   | Pinky/Ring Scissors | 0.34%          | 0.42%             | 0.71%            | 0.40%         | 0.65%             |
-| Cyanophage | Trigrams  | Alt                 | 37.88%         | 36.98%            | 35.62%           | 39.08%        | 25.43%            |
-| Cyanophage | Trigrams  | Alt SFS             | 4.67%          | 5.27%             | 5.93%            | 5.85%         | 5.47%             |
+| Cyanophage | Trigrams  | Alt                 | 37.93%         | 36.98%            | 35.62%           | 39.08%        | 25.43%            |
+| Cyanophage | Trigrams  | Alt SFS             | 4.62%          | 5.27%             | 5.93%            | 5.85%         | 5.47%             |
 | Cyanophage | Trigrams  | Roll in             | 0.89%          | 1.37%             | 1.82%            | 0.86%         | 1.50%             |
 | Cyanophage | Trigrams  | Roll out            | 0.37%          | 0.11%             | 0.29%            | 0.27%         | 0.98%             |
-| Cyanophage | Trigrams  | Bigram roll in      | 27.54%         | 29.18%            | 28.14%           | 23.51%        | 25.18%            |
-| Cyanophage | Trigrams  | Bigram roll out     | 16.48%         | 14.56%            | 14.03%           | 15.14%        | 21.55%            |
-| Cyanophage | Trigrams  | Redirect            | 2.84%          | 2.03%             | 3.05%            | 2.57%         | 9.22%             |
-| Cyanophage | Trigrams  | Weak redirect       | 1.37%          | 1.30%             | 1.40%            | 0.28%         | 1.52%             |
-| Cyanophage | Trigrams  | Other               | 7.95%          | 9.20%             | 9.72%            | 12.44%        | 9.17%             |
+| Cyanophage | Trigrams  | Bigram roll in      | 27.53%         | 29.18%            | 28.14%           | 23.51%        | 25.18%            |
+| Cyanophage | Trigrams  | Bigram roll out     | 16.51%         | 14.56%            | 14.03%           | 15.14%        | 21.55%            |
+| Cyanophage | Trigrams  | Redirect            | 2.83%          | 2.03%             | 3.05%            | 2.57%         | 9.22%             |
+| Cyanophage | Trigrams  | Weak redirect       | 1.39%          | 1.30%             | 1.40%            | 0.28%         | 1.52%             |
+| Cyanophage | Trigrams  | Other               | 7.92%          | 9.20%             | 9.72%            | 12.44%        | 9.17%             |
 
 ## Installation
 
