@@ -21,7 +21,7 @@ xkb_symbols "enthium"
 	key <AD02> { [            y,           Y ] }; // yY
 	key <AD03> { [            u,           U ] }; // uU
 	key <AD04> { [            o,           O ] }; // oO
-	key <AD05> { [        minus,  underscore ] }; // -_
+	key <AD05> { [        slash,    question ] }; // /?
 	key <AD06> { [            x,           X ] }; // xX
 	key <AD07> { [            l,           L ] }; // lL
 	key <AD08> { [            d,           D ] }; // dD
@@ -41,7 +41,7 @@ xkb_symbols "enthium"
 	key <AC11> { [            v,           V ] }; // vV
 
 	key <AB01> { [   apostrophe,    quotedbl ] }; // '"
-	key <AB02> { [        slash,    question ] }; // /?
+	key <AB02> { [        minus,  underscore ] }; // -_
 	key <AB03> { [        equal,        plus ] }; // =+
 	key <AB04> { [       period,     greater ] }; // .>
 	key <AB05> { [    semicolon,       colon ] }; // ;:
