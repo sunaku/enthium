@@ -1,9 +1,5 @@
 # Enthium - Engrammer meets Hands Down Promethium
 
-![Photograph of Enthium v7 on my Glove80 keyboard](
-https://github.com/sunaku/glove80-keymaps/raw/main/README/base-layer-photograph-Enthium.jpg
-)
-
 [This adaptation] of the [Engrammer] and [Hands Down Promethium] keyboard layouts
 improves on the latter's performance in keyboard layout analyzers (see below)
 by mirroring it horizontally to restore familiarity with [Arno's Engram 2.0]
@@ -29,10 +25,15 @@ days (start Friday and use weekend), to unlock all letters in [KeyBr] training.
       ' - = . ; j m g p f
                 r
 
->![Rendering of Enthium v7 on a laptop keyboard.](linux/layout.png)
->![Rendering of Enthium v7 on my Glove80 keyboard.](
+![Rendering of Enthium on a row-staggered laptop keyboard.](linux/layout.png)
+![Rendering of Enthium on my Glove80 keyboard.](
 https://github.com/sunaku/glove80-keymaps/raw/main/README/base-layer-diagram-Enthium.png
 )
+![Photograph of Enthium on my Glove80 keyboard.](
+https://github.com/sunaku/glove80-keymaps/raw/main/README/base-layer-photograph-Enthium.jpg
+)
+
+## Contents
 
 <!-- vim-markdown-toc GFM -->
 
@@ -126,10 +127,28 @@ This change was [suggested by the creator of Cyanophage's Analyzer himself](
 https://reddit.com/r/KeyboardLayouts/comments/1l5ei0j/_/mwgusgt/ ) 🤩 since it
 reduced SFBs from 0.55% to 0.49% and LSBs from 0.23% to 0.20% in his analyzer.
 Similarly, it reduces SFBs to 0.795% in Oxey's analyzer, elevating this layout
-to [🥇 first place](#comparison) in Pascal Getreuer's famous performance table
-for both SFB and LSB categories!
+to 🥇 first place in Pascal Getreuer's performance rankings for SFBs and LSBs!
 
 ## Performance
+
+The [keyboard layout community][rKL] commonly recommends [Pascal Getreuer's
+guide and comparison table][PGt] as a starting point for layout exploration,
+and you'll see that Enthium is statistically among the best layouts there:
+
+* 0.48% SFBs -- wins 🥇 first place; beats the entire table!
+* 0.18% LSBs -- wins 🥇 first place; beats the entire table!
+* 0.08% scissors -- wins 🥇 first place (as a tie with Dvorak)
+* 45.30% rolls -- beats Semimak, Engram, HandsDownNeu, BEAKL19bis, Halmak, Dvorak
+* 2.83% redirects -- beats Focal, Halmak, Recurva, Sturdy, APTv3, Canary, Colemak, etc.
+* 2.80% pinky off _excluding_ lateral -- beats Graphite, Canary, Gallium, MTGAP, etc.
+  * `Q` (0.10%) + `'` (0.47%) + `Z` (0.09%) + `F` (2.14%)
+* 5.33% pinky off _including_ lateral -- beats Engram, Halmak; surpassed by the rest
+  * `Q` (0.10%) + `'` (0.47%) + `Z` (0.09%) + `F` (2.14%) + `B` (1.44%) + `V` (1.09%)
+
+These results come from Cyanophage's analyzer, detailed in the following section.
+
+[rKL]: https://www.reddit.com/r/KeyboardLayouts/
+[PGt]: https://getreuer.info/posts/keyboards/alt-layouts/index.html#which-alt-keyboard-layout-should-i-learn
 
 ### [Cyanophage analyzer][cNT]
 
@@ -148,6 +167,7 @@ Finger usage:
 * Skip Bigrams (2u):   0.35%
 * Lat Stretch Bigrams: 0.18%
 * Pinky/Ring Scissors: 0.34%
+* Scissors (overall):  0.08%
 
 Trigram stats:
 * alt:             37.93%
@@ -238,30 +258,6 @@ Sfb% per finger:
     finger 3:   0.202%  finger 6:       0.114%
 
 ### Comparison
-
-> **NOTE:** Oxey's analyzer currently doesn't support placing letters on lateral
-> home row pinky keys such as the traditional CapsLock key and the apostrophe,
-> so these results may not be accurate.  For instance, the SFB percentage here
-> assumes that B and V are typed by the left thumb whereas they're really on
-> different fingers: with B typed by the left pinky and V by the right pinky.
-> Instead, consider the [Cyanophage analyzer's results](#cyanophage-analyzer)
-> because it takes into account lateral pinky keys and one thumb letter key.
-
-The [keyboard layout community][rKL] commonly recommends [Pascal Getreuer's
-guide and comparison table][PGt] as a starting point for layout exploration,
-and you'll see that Enthium is among the best (statistically) layouts there:
-
-* 0.795% SFBs -- wins 🥇 first place; beats the entire table!
-* 0.328% LSBs -- wins 🥇 first place; beats the entire table!
-* 43.945% rolls -- beats MTGAP, Graphite, Workman, Semimak, Engram, Dvorak, Halmak, etc.
-* 3.988% redirects -- beats Focal, MTGAP, Sturdy, Recurva, APTv3, Canary, Colemak, etc.
-* 2.80% pinky off _excluding_ lateral -- beats Graphite, Canary, Gallium, MTGAP, etc.
-  * `Q` (0.10%) + `'` (0.48%) + `Z` (0.10%) + `F` (2.12%)
-* 5.35% pinky off _including_ lateral -- beats Engram, Halmak; surpassed by the rest
-  * `Q` (0.10%) + `'` (0.48%) + `Z` (0.10%) + `F` (2.12%) + `B` (1.49%) + `V` (1.06%)
-
-[rKL]: https://www.reddit.com/r/KeyboardLayouts/
-[PGt]: https://getreuer.info/posts/keyboards/alt-layouts/index.html#which-alt-keyboard-layout-should-i-learn
 
 For completeness, I've tabulated all [statistics for this and related layouts]( stats/ ):
 
