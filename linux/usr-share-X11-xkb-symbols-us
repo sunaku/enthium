@@ -17,16 +17,16 @@ xkb_symbols "enthium"
 {
 	include "us(basic)"
 
-	key <AD01> { [            q,           Q ] }; // qQ
+	key <AD01> { [            z,           Z ] }; // zZ
 	key <AD02> { [            y,           Y ] }; // yY
 	key <AD03> { [            u,           U ] }; // uU
 	key <AD04> { [            o,           O ] }; // oO
-	key <AD05> { [        slash,    question ] }; // /?
-	key <AD06> { [            x,           X ] }; // xX
+	key <AD05> { [    semicolon,       colon ] }; // ;:
+	key <AD06> { [            q,           Q ] }; // qQ
 	key <AD07> { [            l,           L ] }; // lL
 	key <AD08> { [            d,           D ] }; // dD
-	key <AD09> { [            w,           W ] }; // wW
-	key <AD10> { [            z,           Z ] }; // zZ
+	key <AD09> { [            p,           P ] }; // pP
+	key <AD10> { [            x,           X ] }; // xX
 
 	key <AC01> { [            c,           C ] }; // cC
 	key <AC02> { [            i,           I ] }; // iI
@@ -38,20 +38,20 @@ xkb_symbols "enthium"
 	key <AC08> { [            t,           T ] }; // tT
 	key <AC09> { [            n,           N ] }; // nN
 	key <AC10> { [            s,           S ] }; // sS
-	key <AC11> { [            v,           V ] }; // vV
+	key <AC11> { [            f,           F ] }; // fF
 
 	key <AB01> { [   apostrophe,    quotedbl ] }; // '"
 	key <AB02> { [        minus,  underscore ] }; // -_
 	key <AB03> { [        equal,        plus ] }; // =+
 	key <AB04> { [       period,     greater ] }; // .>
-	key <AB05> { [    semicolon,       colon ] }; // ;:
+	key <AB05> { [        slash,    question ] }; // /?
 	key <AB06> { [            j,           J ] }; // jJ
 	key <AB07> { [            m,           M ] }; // mM
 	key <AB08> { [            g,           G ] }; // gG
-	key <AB09> { [            p,           P ] }; // pP
-	key <AB10> { [            f,           F ] }; // fF
+	key <AB09> { [            b,           B ] }; // bB
+	key <AB10> { [            v,           V ] }; // vV
 
-	key <CAPS> { [            b,           B ] }; // bB
+	key <CAPS> { [            w,           W ] }; // wW
 	key <AE11> { [    Caps_Lock              ] }; // -_
 
 	key <RALT> { [            r,           R ] }; // rR
