@@ -375,30 +375,29 @@ Uninstall:
 
 ### MacOS setup
 
-#### Installation
+Install:
 
-In order to use the layout on MacOS, you'll need to install [Karabiner-Elements](https://karabiner-elements.pqrs.org/).
+* You'll need [Karabiner-Elements], which is also available in [Homebrew]:
 
-You can install it via [Homebrew](https://brew.sh/):
+      brew install --cask karabiner-elements
 
-    brew install --cask karabiner-elements
+Activate:
 
-Or download it from the main [Karabiner-Elements website](https://karabiner-elements.pqrs.org/).
+* Use the [complex modification feature for Enthium][KeNM] to remap your keys.
 
-When downloaded, simply follow the instructions of the [installation guide](https://karabiner-elements.pqrs.org/docs/getting-started/installation/).
+  (Note: The latest version of this is [available here in this Git repository](macos/karabiner.json).)
 
-#### Complex modification
+Uninstall:
 
-Once everything is installed, you can use the [complex modification feature](https://karabiner-elements.pqrs.org/docs/manual/configuration/configure-complex-modifications/) to remap your keys.
+* Remove the complex modification feature for Enthium that you activated.
 
-The enthium complex modification is available [here](https://ke-complex-modifications.pqrs.org/?q=enthium).
+* Optionally remove Karabiner-Elements, which can be done with Homebrew: 
 
-To get back to the basic layout, you can simply remove the enthium complex modification.
+      brew uninstall --cask karabiner-elements
 
-#### Uninstallation
-
-* Brew : `brew uninstall --cask karabiner-elements`
-* Manual : Remove the `Karabiner-Elements.app` from your Applications folder.
+[KeNM]: https://ke-complex-modifications.pqrs.org/?q=enthium
+[Karabiner-Elements]: https://karabiner-elements.pqrs.org
+[Homebrew]: https://brew.sh
 
 ## License
 
