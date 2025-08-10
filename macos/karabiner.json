@@ -45,7 +45,7 @@
                                     "key_code": "q",
                                     "modifiers": { "optional": ["any"] }
                                 },
-                                "to": [{ "key_code": "q" }],
+                                "to": [{ "key_code": "z" }],
                                 "type": "basic"
                             },
                             {
@@ -101,7 +101,7 @@
                                     "key_code": "t",
                                     "modifiers": { "optional": ["any"] }
                                 },
-                                "to": [{ "key_code": "slash" }],
+                                "to": [{ "key_code": "semicolon" }],
                                 "type": "basic"
                             },
                             {
@@ -115,7 +115,7 @@
                                     "key_code": "y",
                                     "modifiers": { "optional": ["any"] }
                                 },
-                                "to": [{ "key_code": "x" }],
+                                "to": [{ "key_code": "q" }],
                                 "type": "basic"
                             },
                             {
@@ -157,7 +157,7 @@
                                     "key_code": "o",
                                     "modifiers": { "optional": ["any"] }
                                 },
-                                "to": [{ "key_code": "w" }],
+                                "to": [{ "key_code": "p" }],
                                 "type": "basic"
                             },
                             {
@@ -171,7 +171,7 @@
                                     "key_code": "p",
                                     "modifiers": { "optional": ["any"] }
                                 },
-                                "to": [{ "key_code": "z" }],
+                                "to": [{ "key_code": "x" }],
                                 "type": "basic"
                             },
                             {
@@ -227,7 +227,7 @@
                                     "key_code": "caps_lock",
                                     "modifiers": { "optional": ["any"] }
                                 },
-                                "to": [{ "key_code": "b" }],
+                                "to": [{ "key_code": "w" }],
                                 "type": "basic"
                             },
                             {
@@ -381,7 +381,7 @@
                                     "key_code": "quote",
                                     "modifiers": { "optional": ["any"] }
                                 },
-                                "to": [{ "key_code": "v" }],
+                                "to": [{ "key_code": "f" }],
                                 "type": "basic"
                             },
                             {
@@ -451,7 +451,7 @@
                                     "key_code": "b",
                                     "modifiers": { "optional": ["any"] }
                                 },
-                                "to": [{ "key_code": "semicolon" }],
+                                "to": [{ "key_code": "slash" }],
                                 "type": "basic"
                             },
                             {
@@ -507,7 +507,7 @@
                                     "key_code": "period",
                                     "modifiers": { "optional": ["any"] }
                                 },
-                                "to": [{ "key_code": "p" }],
+                                "to": [{ "key_code": "b" }],
                                 "type": "basic"
                             },
                             {
@@ -521,7 +521,7 @@
                                     "key_code": "slash",
                                     "modifiers": { "optional": ["any"] }
                                 },
-                                "to": [{ "key_code": "f" }],
+                                "to": [{ "key_code": "v" }],
                                 "type": "basic"
                             },
                             {
