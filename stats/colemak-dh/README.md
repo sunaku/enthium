@@ -1,5 +1,0 @@
-[![keysolve1](keysolve1.png)](keysolve1.txt)
-[![keysolve2](keysolve2.png)](keysolve2.txt)
-[![keysolve3](keysolve3.png)](keysolve3.txt)
-[![oxey](oxey.png)](oxey.txt)
-[![cyanophage](cyanophage.png)](cyanophage.txt)
