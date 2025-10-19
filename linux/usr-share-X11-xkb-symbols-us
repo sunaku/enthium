@@ -4,9 +4,9 @@
 //           https://github.com/sunaku/enthium
 //
 // ` 1 2 3 4 5 6 7 8 9 0 cl ra
-//   z y u o ; q l d p x
-// w c i e a , k h t n s f
-//   ' - = . / j m g b v
+//   z y o u = q l d p x
+// w c i a e ; k h t n s f
+//   ' - , . / j m g b v
 //             r
 //
 // B displaces cl (Caps Lock).
@@ -19,9 +19,9 @@ xkb_symbols "enthium"
 
 	key <AD01> { [            z,           Z ] }; // zZ
 	key <AD02> { [            y,           Y ] }; // yY
-	key <AD03> { [            u,           U ] }; // uU
-	key <AD04> { [            o,           O ] }; // oO
-	key <AD05> { [    semicolon,       colon ] }; // ;:
+	key <AD03> { [            o,           O ] }; // oO
+	key <AD04> { [            u,           U ] }; // uU
+	key <AD05> { [        equal,        plus ] }; // =+
 	key <AD06> { [            q,           Q ] }; // qQ
 	key <AD07> { [            l,           L ] }; // lL
 	key <AD08> { [            d,           D ] }; // dD
@@ -30,9 +30,9 @@ xkb_symbols "enthium"
 
 	key <AC01> { [            c,           C ] }; // cC
 	key <AC02> { [            i,           I ] }; // iI
-	key <AC03> { [            e,           E ] }; // eE
-	key <AC04> { [            a,           A ] }; // aA
-	key <AC05> { [        comma,        less ] }; // ,<
+	key <AC03> { [            a,           A ] }; // aA
+	key <AC04> { [            e,           E ] }; // eE
+	key <AC05> { [    semicolon,       colon ] }; // ;:
 	key <AC06> { [            k,           K ] }; // kK
 	key <AC07> { [            h,           H ] }; // hH
 	key <AC08> { [            t,           T ] }; // tT
@@ -42,7 +42,7 @@ xkb_symbols "enthium"
 
 	key <AB01> { [   apostrophe,    quotedbl ] }; // '"
 	key <AB02> { [        minus,  underscore ] }; // -_
-	key <AB03> { [        equal,        plus ] }; // =+
+	key <AB03> { [        comma,        less ] }; // ,<
 	key <AB04> { [       period,     greater ] }; // .>
 	key <AB05> { [        slash,    question ] }; // /?
 	key <AB06> { [            j,           J ] }; // jJ
