@@ -8,9 +8,9 @@ layout (YOU on the left hand) and the [Dvorak] layout (HTNS on the right hand)
 while optimizing punctuation placement for programming in the spirit of Engrammer,
 featuring HJKL and `,;` for Vim, `-=` for zooming, and `./` for filesystem paths.
 
-      z y o u = q l d p x
-    w c i a e ; k h t n s f
-      ' - , . / j m g b v
+      q y o u = x l d w z
+    b c i a e ; k h t n s f
+      ' - , . / j m g p v
                 r
 
 ![Heatmap of this layout by Valorance, adapted from Oxeylyzer.](heatmap.png)
@@ -27,13 +27,13 @@ featuring HJKL and `,;` for Vim, `-=` for zooming, and `./` for filesystem paths
 
 ## Rationale
 
-* The primary same-finger bigrams UE (0.08%), OA (0.05%), and YI (0.03%) can be
-  raked down vertically, minimizing their impact on typing flow and performance.
+* Same-finger bigrams (SFBs) such as UE (0.08%), WN (0.06%), and OA (0.05%) can
+  be raked down vertically, reducing their impact on typing flow and performance.
 
-* Pinky load is distributed by frequency: heavy letters W (1.77%) and F (2.14%)
+* Pinky load is distributed by frequency: heavy letters B (1.44%) and F (2.14%)
   are close at hand on the home row's lateral pinky keys (CapsLock, Apostrophe);
   medium letters `'` (0.47%) and V (1.09%) are on the lower row pinky keys; and
-  light letters Z (0.09%) and X (0.02%) are on the upper row, which all together
+  light letters Q (0.10%) and Z (0.09%) are on the upper row, which all together
   help reduce strain for short pinky fingers or those [weakened by convention].
 
 * Apostrophe is away (on a different finger entirely) from YOU and I so that
@@ -62,38 +62,39 @@ and you'll see that Enthium is statistically among the best layouts there.
 
 Comparing with [conventional layout rankings][PGl]:
 
-* 0.02% LSBs — wins 🥇 first place; beats the entire table!
-* 0.55% SFBs — wins 🥈 second place; surpassed by Focal
-* 1.36% redirects — wins 🥇 first place; beats the entire table!
-* 0.17% scissors — fifth place; after ColemakDH, MTGAP, APTv3, Dvorak
-* 47.02% rolls — beats Focal, MTGAP, Graphite, Gallium, HandsDownNeu, Halmak
-* 3.31% pinky off — beats APTv3, Semimak, MTGAP, Dvorak, Recurva, Halmak, Engram
+* 0.05% LSBs — wins 🥇 first place; beats the entire table!
+* 0.60% SFBs — fourth place; after Focal, Recurva, Semimak
+* 1.48% redirects — wins 🥇 first place; beats the entire table!
+* 0.17% scissors — fifth place; after Dvorak, APTv3, ColemakDH, MTGAP
+* 45.77% rolls — beats Semimak, Gallium, Engram, HandsDownNeu, Halmak, Dvorak
+* 3.22% pinky off — beats APTv3, Semimak, MTGAP, Dvorak, Recurva, Halmak, Engram
 
 Comparing with [thumb-letter layout rankings][PGt]:
 
-* 0.02% LSBs — wins 🥇 first place; beats the entire table!
-* 0.55% SFBs — wins 🥈 second place; surpassed by Night
-* 1.36% redirects — wins 🥉 third place; after Vibranium, Nordrassil
-* 0.17% scissors — fourth place; after Maltron, Promethium, RSTHD
-* 47.02% rolls — fourth place; after Caster, Maltron, RSTHD
-* 3.31% pinky off — fourth place; after Night, Nordrassil, RSTHD
+* 0.05% LSBs — wins 🥇 first place; beats the entire table!
+* 0.60% SFBs — fourth place; after Night, Vibranium, Promethium
+* 1.48% redirects — wins 🥉 third place; after Nordrassil, Vibranium
+* 0.17% scissors — fourth place; after RSTHD, Promethium, Maltron
+* 45.77% rolls — beats Promethium and Nordrassil
+* 3.22% pinky off — fourth place; after RSTHD, Nordrassil, Night
 
 Enthium's SFBs can be neutralized by raking them down vertically:
 
-* 0.55% total SFBs - 0.34% rakeable SFBs = **0.21% _effective_ SFBs**
+* 0.60% total SFBs - 0.40% rakeable SFBs = **0.20% _effective_ SFBs**
   - `e.` (0.14%)
   - `ue` (0.08%)
+  - `wn` (0.06%)
   - `oa` (0.05%)
   - `yi` (0.03%)
   - `a,` (0.02%)
+  - `np` (0.01%)
   - `hm` (0.01%)
-  - `nb` (0.01%)
 
 These results were [computed with Cyanophage's Layout Analyzer][cNM] as follows.
 
 [![Statistics for Enthium from Cyanophage's Layout Analyzer](cyanophage.png)][cNM]
 
-[cNM]: https://cyanophage.github.io/playground.html?layout=zyou%3Dqldpx%5Cciae%3Bkhtnsf%27-%2C.%2Fjmgbv*rw&mode=ergo&lan=english&thumb=r
+[cNM]: https://cyanophage.github.io/playground.html?layout=qyou%3Dxldwz%5Cciae%3Bkhtnsf%27-%2C.%2Fjmgpv*rb&mode=ergo&lan=english&thumb=r
 [cPM]: https://cyanophage.github.io/playground.html?layout=fpdlx%3Buoybzsnthk%2Caeicqvwgmj-.%27%3D%2F%5Cr&mode=ergo&lan=english&thumb=l
 [cNG]: https://cyanophage.github.io/playground.html?layout=byou%27%3Bldwvzciea%2C.htsnqgxjk-%2Frmfp%5C%5E&mode=ergo&lan=english&thumb=l
 [cDV]: https://cyanophage.github.io/playground.html?layout=%27%2C.pyfgcrl%2Faoeuidhtns-%3Bqjkxbmwvz%5C%5E&mode=ergo&lan=english&thumb=l
@@ -102,22 +103,22 @@ These results were [computed with Cyanophage's Layout Analyzer][cNM] as follows.
 
 | Category  | Statistic           | *[Enthium][cNM]* | [Promethium][cPM] | [Engrammer][cNG] | [Dvorak][cDV] | [Colemak-DH][cCD] | [QWERTY][cQW] |
 | --------- | ------------------- | ---------------- | ----------------- | ---------------- | ------------- | ----------------- | ------------- |
-| Summary   | Total Word Effort   | *725.0*          | 732.1             | 899.5            | 1185.5        | 1047.9            | 2070.6        |
-| Summary   | Effort              | *418.25*         | 398.09            | 457.41           | 769.69        | 534.99            | 1258.15       |
-| Bigrams   | Same Finger Bigrams | *0.55%*          | 0.58%             | 0.99%            | 1.87%         | 0.91%             | 4.38%         |
-| Bigrams   | Skip Bigrams (2u)   | *0.34%*          | 0.36%             | 0.39%            | 0.45%         | 0.49%             | 1.43%         |
-| Bigrams   | Lat Stretch Bigrams | *0.02%*          | 0.24%             | 0.41%            | 0.80%         | 1.27%             | 4.55%         |
+| Summary   | Total Word Effort   | *736.7*          | 732.1             | 899.5            | 1185.5        | 1047.9            | 2070.6        |
+| Summary   | Effort              | *415.54*         | 398.09            | 457.41           | 769.69        | 534.99            | 1258.15       |
+| Bigrams   | Same Finger Bigrams | *0.60%*          | 0.58%             | 0.99%            | 1.87%         | 0.91%             | 4.38%         |
+| Bigrams   | Skip Bigrams (2u)   | *0.36%*          | 0.36%             | 0.39%            | 0.45%         | 0.49%             | 1.43%         |
+| Bigrams   | Lat Stretch Bigrams | *0.05%*          | 0.24%             | 0.41%            | 0.80%         | 1.27%             | 4.55%         |
 | Bigrams   | Scissors            | *0.17%*          | 0.11%             | 0.36%            | 0.08%         | 0.15%             | 1.46%         |
-| Trigrams  | Alt                 | *37.17%*         | 36.98%            | 35.62%           | 39.08%        | 25.43%            | 21.38%        |
-| Trigrams  | Alt SFS             | *4.55%*          | 5.27%             | 5.93%            | 5.85%         | 5.47%             | 5.42%         |
+| Trigrams  | Alt                 | *37.82%*         | 36.98%            | 35.62%           | 39.08%        | 25.43%            | 21.38%        |
+| Trigrams  | Alt SFS             | *4.72%*          | 5.27%             | 5.93%            | 5.85%         | 5.47%             | 5.42%         |
 | Trigrams  | Roll in             | *1.56%*          | 1.72%             | 1.82%            | 0.28%         | 1.50%             | 1.32%         |
-| Trigrams  | Roll out            | *0.37%*          | 0.29%             | 0.29%            | 0.27%         | 0.98%             | 1.48%         |
-| Trigrams  | Bigram roll in      | *28.01%*         | 29.17%            | 28.14%           | 23.51%        | 25.18%            | 20.38%        |
-| Trigrams  | Bigram roll out     | *17.08%*         | 14.56%            | 14.03%           | 15.14%        | 21.54%            | 17.58%        |
-| Trigrams  | Redirect            | *1.36%*          | 1.53%             | 2.26%            | 1.55%         | 5.33%             | 6.22%         |
-| Trigrams  | Weak redirect       | *0.92%*          | 0.87%             | 0.74%            | 0.64%         | 1.09%             | 0.44%         |
-| Trigrams  | Other               | *8.97%*          | 9.61%             | 11.17%           | 13.68%        | 13.49%            | 25.78%        |
-| Computed  | Pinky off           | *3.31%*          | 4.08%             | 5.70%            | 4.13%         | 0.78%             | 2.47%         |
+| Trigrams  | Roll out            | *0.39%*          | 0.29%             | 0.29%            | 0.27%         | 0.98%             | 1.48%         |
+| Trigrams  | Bigram roll in      | *26.99%*         | 29.17%            | 28.14%           | 23.51%        | 25.18%            | 20.38%        |
+| Trigrams  | Bigram roll out     | *16.83%*         | 14.56%            | 14.03%           | 15.14%        | 21.54%            | 17.58%        |
+| Trigrams  | Redirect            | *1.48%*          | 1.53%             | 2.26%            | 1.55%         | 5.33%             | 6.22%         |
+| Trigrams  | Weak redirect       | *0.81%*          | 0.87%             | 0.74%            | 0.64%         | 1.09%             | 0.44%         |
+| Trigrams  | Other               | *9.39%*          | 9.61%             | 11.17%           | 13.68%        | 13.49%            | 25.78%        |
+| Computed  | Pinky off           | *3.22%*          | 4.08%             | 5.70%            | 4.13%         | 0.78%             | 2.47%         |
 
 [rKL]: https://www.reddit.com/r/KeyboardLayouts/
 [PGr]: https://getreuer.info/posts/keyboards/alt-layouts/
