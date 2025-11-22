@@ -5,12 +5,11 @@
   [
     {
       "x": 1,
-      "c": "#bbdefb",
       "p": "CHICKLET",
       "a": 7,
       "f": 5
     },
-    "Z",
+    "Q",
     {
       "c": "#FFECB3"
     },
@@ -27,25 +26,26 @@
     "+\n=",
     {
       "x": 0.5,
+      "c": "#dcedc8",
       "a": 7
     },
-    "Q",
+    "X",
     {
       "c": "#FFECB3"
     },
     "L",
     "D",
     {
-      "c": "#dcedc8"
+      "c": "#ffecb3"
     },
-    "P",
+    "W",
     {
       "c": "#bbdefb"
     },
-    "X"
+    "Z"
   ],
   [
-    "W",
+    "B",
     {
       "c": "#FFECB3"
     },
@@ -124,7 +124,7 @@
     {
       "c": "#bbdefb"
     },
-    "B",
+    "P",
     {
       "c": "#dcedc8"
     },
@@ -146,7 +146,7 @@
       "h": 1.25,
       "d": true
     },
-    "<ul><li><b>R</b> is on right thumb.</li><li><b>W</b> is on left pinky (CapsLock key).</li><li><b>F</b> is on right pinky (Apostrophe key).</li></ul>",
+    "<ul><li><b>R</b> is on right thumb.</li><li><b>B</b> is on left pinky (CapsLock key).</li><li><b>F</b> is on right pinky (Apostrophe key).</li></ul>",
     {
       "x": -6,
       "c": "#dcedc8",

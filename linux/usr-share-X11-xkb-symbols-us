@@ -4,9 +4,9 @@
 //           https://github.com/sunaku/enthium
 //
 // ` 1 2 3 4 5 6 7 8 9 0 cl ra
-//   z y o u = q l d p x
-// w c i a e ; k h t n s f
-//   ' - , . / j m g b v
+//   q y o u = x l d w z
+// b c i a e ; k h t n s f
+//   ' - , . / j m g p v
 //             r
 //
 // B displaces cl (Caps Lock).
@@ -17,16 +17,16 @@ xkb_symbols "enthium"
 {
 	include "us(basic)"
 
-	key <AD01> { [            z,           Z ] }; // zZ
+	key <AD01> { [            q,           Q ] }; // qQ
 	key <AD02> { [            y,           Y ] }; // yY
 	key <AD03> { [            o,           O ] }; // oO
 	key <AD04> { [            u,           U ] }; // uU
 	key <AD05> { [        equal,        plus ] }; // =+
-	key <AD06> { [            q,           Q ] }; // qQ
+	key <AD06> { [            x,           X ] }; // xX
 	key <AD07> { [            l,           L ] }; // lL
 	key <AD08> { [            d,           D ] }; // dD
-	key <AD09> { [            p,           P ] }; // pP
-	key <AD10> { [            x,           X ] }; // xX
+	key <AD09> { [            w,           W ] }; // wW
+	key <AD10> { [            z,           Z ] }; // zZ
 
 	key <AC01> { [            c,           C ] }; // cC
 	key <AC02> { [            i,           I ] }; // iI
@@ -48,10 +48,10 @@ xkb_symbols "enthium"
 	key <AB06> { [            j,           J ] }; // jJ
 	key <AB07> { [            m,           M ] }; // mM
 	key <AB08> { [            g,           G ] }; // gG
-	key <AB09> { [            b,           B ] }; // bB
+	key <AB09> { [            p,           P ] }; // pP
 	key <AB10> { [            v,           V ] }; // vV
 
-	key <CAPS> { [            w,           W ] }; // wW
+	key <CAPS> { [            b,           B ] }; // bB
 	key <AE11> { [    Caps_Lock              ] }; // -_
 
 	key <RALT> { [            r,           R ] }; // rR
