@@ -32,7 +32,7 @@ xkb_symbols "enthium"
 	key <AC02> { [            i,           I ] }; // iI
 	key <AC03> { [            a,           A ] }; // aA
 	key <AC04> { [            e,           E ] }; // eE
-	key <AC05> { [    semicolon,       colon ] }; // ;:
+	key <AC05> { [        minus,  underscore ] }; // -_
 	key <AC06> { [            k,           K ] }; // kK
 	key <AC07> { [            h,           H ] }; // hH
 	key <AC08> { [            t,           T ] }; // tT
@@ -41,9 +41,9 @@ xkb_symbols "enthium"
 	key <AC11> { [            f,           F ] }; // fF
 
 	key <AB01> { [   apostrophe,    quotedbl ] }; // '"
-	key <AB02> { [        minus,  underscore ] }; // -_
-	key <AB03> { [        comma,        less ] }; // ,<
-	key <AB04> { [       period,     greater ] }; // .>
+	key <AB02> { [        comma,        less ] }; // ,<
+	key <AB03> { [       period,     greater ] }; // .>
+	key <AB04> { [    semicolon,       colon ] }; // ;:
 	key <AB05> { [        slash,    question ] }; // /?
 	key <AB06> { [            j,           J ] }; // jJ
 	key <AB07> { [            m,           M ] }; // mM
