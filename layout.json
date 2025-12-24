@@ -36,9 +36,9 @@
     "L",
     "D",
     {
-      "c": "#ffecb3"
+      "c": "#dcedc8"
     },
-    "W",
+    "P",
     {
       "c": "#bbdefb"
     },
@@ -83,7 +83,7 @@
     {
       "c": "#bbdefb"
     },
-    "F"
+    "W"
   ],
   [
     {
@@ -119,9 +119,9 @@
     },
     "G",
     {
-      "c": "#bbdefb"
+      "c": "#ffecb3"
     },
-    "P",
+    "F",
     {
       "c": "#dcedc8"
     },
@@ -143,7 +143,7 @@
       "h": 1.25,
       "d": true
     },
-    "<ul><li><b>R</b> is on right thumb.</li><li><b>B</b> is on left pinky (CapsLock key).</li><li><b>F</b> is on right pinky (Apostrophe key).</li></ul>",
+    "<ul><li><b>R</b> is on right thumb.</li><li><b>B</b> is on left pinky (CapsLock key).</li><li><b>W</b> is on right pinky (Apostrophe key).</li></ul>",
     {
       "x": -6,
       "c": "#dcedc8",

@@ -157,7 +157,7 @@
                                     "key_code": "o",
                                     "modifiers": { "optional": ["any"] }
                                 },
-                                "to": [{ "key_code": "w" }],
+                                "to": [{ "key_code": "p" }],
                                 "type": "basic"
                             },
                             {
@@ -381,7 +381,7 @@
                                     "key_code": "quote",
                                     "modifiers": { "optional": ["any"] }
                                 },
-                                "to": [{ "key_code": "f" }],
+                                "to": [{ "key_code": "w" }],
                                 "type": "basic"
                             },
                             {
@@ -507,7 +507,7 @@
                                     "key_code": "period",
                                     "modifiers": { "optional": ["any"] }
                                 },
-                                "to": [{ "key_code": "p" }],
+                                "to": [{ "key_code": "f" }],
                                 "type": "basic"
                             },
                             {
