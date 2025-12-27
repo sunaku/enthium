@@ -30,6 +30,7 @@ featuring HJKL and `,;` for Vim, `-=` for zooming, and `./` for filesystem paths
 
 * Vertical same-finger bigrams such as UE (0.08%), OA (0.05%), and NF (0.04%)
   can be _raked down_, mitigating their impact on typing flow and performance.
+  Similarly, horizontal ones can be _slid over_ based on dexterity and comfort.
 
 * Apostrophe is on a different finger from vowels to avoid same-finger bigrams
   when typing contractions in English: You'd, I'd, He'd, They'd, Quo's, Via's.
@@ -80,18 +81,26 @@ Comparing with [thumb-letter layout rankings][PGt]:
 * 45.82% rolls — sixth place; beats Promethium, Nordrassil
 * 2.91% pinky off — third 🥉 place; after RSTHD, Nordrassil
 
-Vertical SFBs in Enthium can be _raked down_ across adjacent rows,
-allowing the same finger to slide over both keys in a single motion:
+Several same-finger bigrams (SFBs) in Enthium can be _raked down_ vertically
+across adjacent rows or _slid over_ horizontally, based on your dexterity and
+comfort.  This allows the same finger to actuate both keys in one continuous
+motion, thereby mitigating their impact on your typing flow and performance:
 
-* 0.55% total SFBs - 0.26% rakeable SFBs = **0.29% _effective_ SFBs**
-  - `ue` (0.08%)
-  - `oa` (0.05%)
-  - `nf` (0.04%)
-  - `yi` (0.03%)
-  - `a.` (0.02%)
-  - `lk` (0.02%)
-  - `e/` (0.01%)
-  - `hm` (0.01%)
+> 0.55% SFBs - 0.26% rakeable - 0.07% slideable = **0.22% _effective_ SFBs**
+
+| SFB  | Cost  | Mitigation |
+| ---  | ----  | ---------- |
+| `ue` | 0.08% | rake down  |
+| `oa` | 0.05% | rake down  |
+| `nf` | 0.04% | rake down  |
+| `ws` | 0.03% | slide in   |
+| `yi` | 0.03% | rake down  |
+| `e-` | 0.02% | slide out  |
+| `sw` | 0.02% | slide out  |
+| `a.` | 0.02% | rake down  |
+| `lk` | 0.02% | rake down  |
+| `e/` | 0.01% | rake down  |
+| `hm` | 0.01% | rake down  |
 
 These results were [computed with Cyanophage's Layout Analyzer][cNM] as follows.
 
