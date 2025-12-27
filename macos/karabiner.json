@@ -437,7 +437,7 @@
                                     "key_code": "v",
                                     "modifiers": { "optional": ["any"] }
                                 },
-                                "to": [{ "key_code": "semicolon" }],
+                                "to": [{ "key_code": "slash" }],
                                 "type": "basic"
                             },
                             {
@@ -451,7 +451,7 @@
                                     "key_code": "b",
                                     "modifiers": { "optional": ["any"] }
                                 },
-                                "to": [{ "key_code": "slash" }],
+                                "to": [{ "key_code": "semicolon" }],
                                 "type": "basic"
                             },
                             {
