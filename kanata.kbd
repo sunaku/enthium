@@ -1,0 +1,31 @@
+;; Enthium - Engrammer meets Hands Down Promethium
+;;           https://github.com/sunaku/enthium
+;;
+;; ` 1 2 3 4 5 6 7 8 9 0 cl ra
+;;   q y o u = x l d p z
+;; b c i a e - k h t n s w
+;;   ' , . ; / j m g f v
+;;             r
+;;
+;; B displaces cl (Caps Lock).
+;; R displaces ra (Right Alt).
+
+(defcfg
+  process-unmapped-keys yes
+)
+
+(defsrc
+  grv  1    2    3    4    5    6    7    8    9    0    -    =    bspc
+  tab  q    w    e    r    t    y    u    i    o    p    [    ]    \
+  caps a    s    d    f    g    h    j    k    l    ;    '    ret
+  lsft z    x    c    v    b    n    m    ,    .    /    rsft
+  lctl lmet lalt           spc            ralt rmet rctl
+)
+
+(deflayer enthium
+  grv  1    2    3    4    5    6    7    8    9    0    ralt caps bspc
+  tab  q    y    o    u    =    x    l    d    p    z    [    ]    \
+  b    c    i    a    e    -    k    h    t    n    s    w    ret
+  lsft '    ,    .    ;    /    j    m    g    f    v    rsft
+  lctl lmet lalt           spc            r    rmet rctl
+)

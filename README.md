@@ -155,6 +155,21 @@ See my [Glorious Engrammer] keymap:
 
 ## Installation
 
+### Kanata setup
+
+Use the provided `kanata.kbd` keymap file with [Kanata] directly:
+
+    kanata -c kanata.kbd
+
+You can also choose to install that into your account, like this:
+
+    mkdir -p ~/.config/kanata/
+    cp -i kanata.kbd ~/.config/kanata/
+
+Refer to [Kanata]'s documentation for further usage instructions.
+
+[Kanata]: https://github.com/jtroo/kanata
+
 ### Linux setup
 
 Install:
