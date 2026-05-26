@@ -7,7 +7,7 @@ all: reinstall
 
 install: $(SOURCE_SYMBOLS) $(TARGET_SYMBOLS) $(SOURCE_RULES) $(TARGET_RULES)
 	cat $(SOURCE_SYMBOLS) >> $(TARGET_SYMBOLS)
-	sed -i "$$(awk '/variantList/{ print NR; exit }' $(TARGET_RULES)) r $(SOURCE_RULES)" $(TARGET_RULES)
+	sed -i "$$(awk '/<description>English \(US\)</ { en_US=1 }; en_US && /<variantList>/ { print NR; exit }' $(TARGET_RULES)) r $(SOURCE_RULES)" $(TARGET_RULES)
 
 uninstall: $(TARGET_SYMBOLS) $(TARGET_RULES)
 	sed -i '/ ENTHIUM BEGIN /,/ ENTHIUM END /d' $^
