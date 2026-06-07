@@ -178,10 +178,9 @@ Install:
     sudo make install
     echo Now restart your graphical session.
 
-Activate:
+Activate (tap both Shifts together for CapsLock; Win+Space for QWERTY toggle):
 
-    setxkbmap -layout us    -variant enthium         # one layout; no switch
-    setxkbmap -layout us,us -variant enthium,basic   # dual layout switching
+    setxkbmap -layout us,us -variant enthium,basic -option grp:shifts_toggle -option grp:win_space_toggle
 
 Repair (e.g. whenever a system-wide XKB package upgrade reverts installation):
 

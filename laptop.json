@@ -24,8 +24,8 @@
       "a": 7,
       "f": 3
     },
-    "Caps Lock",
     "Right Alt",
+    "Right Ctrl",
     {
       "c": "#cccccc",
       "w": 2
@@ -139,12 +139,15 @@
   ],
   [
     {
+      "t": "#000000\n#777777",
+      "a": 5,
+      "f2": 2,
       "w": 2.25
     },
-    "Shift",
+    "\n(both for CapsLock)\n\n\n\n\nShift",
     {
       "c": "#BBDEFB",
-      "a": 5,
+      "t": "#000000",
       "f": 5
     },
     "\"\n'",
@@ -182,13 +185,18 @@
     "V",
     {
       "c": "#cccccc",
+      "t": "#000000\n#777777",
+      "a": 5,
       "f": 3,
+      "f2": 2,
       "w": 2.75
     },
-    "Shift"
+    "\n(both for CapsLock)\n\n\n\n\nShift"
   ],
   [
     {
+      "t": "#000000",
+      "a": 7,
       "w": 1.25
     },
     "Ctrl",
