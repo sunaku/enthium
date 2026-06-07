@@ -1,7 +1,7 @@
 ;; Enthium - Engrammer meets Hands Down Promethium
 ;;           https://github.com/sunaku/enthium
 ;;
-;; ` 1 2 3 4 5 6 7 8 9 0 cl ra
+;; ` 1 2 3 4 5 6 7 8 9 0 ra rc
 ;;   q y o u = x l d p z
 ;; b c i a e - k h t n s w
 ;;   ' , . ; / j m g f v
@@ -23,7 +23,7 @@
 )
 
 (deflayer enthium
-  grv  1    2    3    4    5    6    7    8    9    0    ralt caps bspc
+  grv  1    2    3    4    5    6    7    8    9    0    ralt rctl bspc
   tab  q    y    o    u    =    x    l    d    p    z    [    ]    \
   b    c    i    a    e    -    k    h    t    n    s    w    ret
   lsft '    ,    .    ;    /    j    m    g    f    v    rsft

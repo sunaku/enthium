@@ -3,7 +3,7 @@
 // Enthium - Engrammer meets Hands Down Promethium
 //           https://github.com/sunaku/enthium
 //
-// ` 1 2 3 4 5 6 7 8 9 0 cl ra
+// ` 1 2 3 4 5 6 7 8 9 0 ra rc
 //   q y o u = x l d p z
 // b c i a e - k h t n s w
 //   ' , . ; / j m g f v
@@ -52,9 +52,10 @@ xkb_symbols "enthium"
 	key <AB10> { [            v,           V ] }; // vV
 
 	key <CAPS> { [            b,           B ] }; // bB
-	key <AE11> { [    Caps_Lock              ] }; // -_
+	key <AE11> { [        Alt_R              ] }; // -_
 
 	key <RALT> { [            r,           R ] }; // rR
-	key <AE12> { [        Alt_R              ] }; // =+
+	key <AE12> { [    Control_R              ] }; // =+
+	modifier_map      Control         { <AE12> };
 };
 // ENTHIUM END //////////////////////////////////////////
