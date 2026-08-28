@@ -16,7 +16,7 @@ featuring HJKL and `,;` for Vim, `-=` for zooming, and `./` for filesystem paths
                 r
 
 [Hands Down Promethium]: https://reddit.com/r/KeyboardLayouts/comments/1g66ivi
-[Arno's Engram 2.0]:     https://github.com/binarybottle/engram
+[Arno's Engram 2.0]:     https://github.com/binarybottle/engram-2021
 [Engrammer]:             https://github.com/sunaku/engrammer
 [Dvorak]:                https://www.dvzine.org
 
