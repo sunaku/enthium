@@ -1,146 +1,147 @@
-# Enthium v14 - Engrammer meets Promethium
+# Enthium v15 - Engrammer meets Promethium
 
-*Enthium* is a highly performant adaptation of the [Engrammer] and [Hands Down
-Promethium] keyboard layouts.  It restores familiarity with [Arno's Engram 2.0]
-layout (YOU on the left hand) and the [Dvorak] layout (HTNS on the right hand)
-while optimizing punctuation placement for programming in the spirit of Engrammer,
-featuring HJKL and `,;` for Vim, `-=` for zooming, and `./` for filesystem paths.
+*Enthium* is a highly performant thumb-letter keyboard layout adapted from
+[Promethium] in the spirit of [Engrammer].  It commemorates [Engram 2.0] and
+[Dvorak] with CIEA and HTNS on the home row, respectively, while optimizing
+punctuation and symbol placement for programming and application shortcuts,
+including HJKL for Vim navigation, `-=` for zooming, and `./` for file paths.
 
 ![Heatmap of this layout by Valorance, adapted from Oxeylyzer.](heatmap.png)
 
-      q y o u = x l d p z
-    b c i a e - k h t n s w
-      ' , . ; / j m g f v
+      q y u o ; x l d p z
+    b c i e a , k h t n s w
+      ' - = . / j m g f v
                 r
 
-[Hands Down Promethium]: https://reddit.com/r/KeyboardLayouts/comments/1g66ivi
-[Arno's Engram 2.0]:     https://github.com/binarybottle/engram-2021
-[Engrammer]:             https://github.com/sunaku/engrammer
-[Dvorak]:                https://www.dvzine.org
+[Promethium]: https://reddit.com/r/KeyboardLayouts/comments/1g66ivi
+[Engram 2.0]: https://github.com/binarybottle/engram-2021
+[Engrammer]:  https://github.com/sunaku/engrammer
+[Dvorak]:     https://www.dvzine.org
 
 ## Rationale
 
-* Pinky load is stratified by frequency: heavy letters B (1.44%) and W (1.77%)
-  are close to home position on the lateral pinky keys (CapsLock, Apostrophe);
-  medium letters `'` (0.47%) and V (1.09%) occupy the lower row pinky keys; and
-  light letters Q (0.10%) and Z (0.09%) sit on the upper row.  This distribution
-  helps reduce strain for short pinky fingers or those [weakened by convention].
+Enthium balances layout analyzer metrics (pinky and same-finger use, lateral
+stretches, redirects, rolls, etc.) with findings from my extensive real-world
+evaluation and feedback from early adopters in the Glove80 keyboard community.
+See [my blog post] for a closer look at Enthium's design process and evolution.
 
-* Vertical same-finger bigrams such as UE (0.08%), OA (0.05%), and NF (0.04%)
-  can be _raked down_, mitigating their impact on typing flow and performance.
-  Similarly, horizontal ones can be _slid over_ based on dexterity and comfort.
+### Typing comfort and flow
+
+* Pinky load is stratified by frequency: heavy letters B (1.44%) and W (1.77%)
+  are close to the home position on lateral pinky keys (CapsLock, Apostrophe);
+  apostrophe `'` (0.47%) and letter V (1.09%) occupy the lower row pinky keys;
+  and light letters Q (0.10%) and Z (0.09%) sit on the upper row.  This helps
+  reduce strain for pinky fingers that are short or [weakened by convention].
 
 * Apostrophe is on a different finger from vowels to avoid same-finger bigrams
-  when typing contractions in English: You'd, I'd, He'd, They'd, Quo's, Via's.
+  when typing English contractions such as ma'am, we'd, I'm, o'clock, you're.
 
-* B/E/W, I/A, K/J, Ctrl-P/N, T/F, and `,;` are directionally coherent for Vim.
+* Cross-hand symmetry (EA and TH roll inward, whereas OU and LD roll outward)
+  provides consistent directionality through the vowel and consonant clusters,
+  while E on the middle finger supports continuity through vowel-heavy words.
+
+* Vertical same-finger bigrams such as UE (0.08%), OA (0.05%), and NF (0.04%)
+  can be _raked down_, which can help reduce interruptions to your typing flow.
+  Similarly, horizontal ones can be _slid over_ based on dexterity and comfort.
+  For example, the word "queue" can be typed as a Q tap followed by raking down
+  UE twice with the middle finger, whereas the word "milk" can be typed as M
+  and I taps followed by sliding down and across LK with the index finger.
+
+* QU is an inward roll that flows seamlessly into common vowel sequences:
+  QUO keeps rolling inward, QUI/QUA roll downward, and QUE rakes downward.
+
+### Punctuation and shortcuts
 
 * Ctrl-B/I/U shortcuts for bold/italic/underline are all on the same hand.
 
 * `-` and `=` are clustered for intuitive zoom-in/out shortcuts with Ctrl.
+  They are also positioned to the left of `>` for typing `->` and `=>`.
 
-* `.` and `/` are in-rollable for relative `./` and `../` filesystem paths.
+* `.` and `/` are clustered for relative file paths such as `./` and `../`.
 
-* `,.;/` are in the same relative sequence as QWERTY for easier adaptation,
-  especially for navigation and custom shortcuts that rely on shifted `<>`.
+* `,` is stacked above `.` on conventional row-staggered keyboards, allowing
+  `<>` to be typed by _raking down_ vertically while holding the Shift key.
 
-* `',.` are on the same fingers and hand (only the row changes) as Dvorak.
+* `;` and `,` are stacked for cycling through f/F/t/T jump targets in Vim,
+  mirroring the relative ordering of L and H for horizontal cursor movement.
 
-* See [my blog post] for a closer look at Enthium's design and evolution.
+* B/E/W, I/A, K/J, Ctrl-P/N, and T/F physically align with Vim directions.
 
 [my blog post]:           https://sunaku.github.io/enthium-keyboard-layout.html
 [weakened by convention]: https://reddit.com/r/KeyboardLayouts/comments/1fy8nve/_/lqulnww/
 
 ## Performance
 
-The [keyboard layout community][rKL] commonly recommends [Pascal Getreuer's
-guide][PGr] and ranking tables as a starting point for layout exploration,
-and Enthium ranks among the top-performing layouts there as of 2025-12-28.
-More importantly, Enthium is well-balanced in terms of ergonomic concerns
-(same-finger avoidance, redirects, rolls, and pinky load) for sustained use.
+The [keyboard layouts community][rKL] often recommends [Pascal Getreuer's
+guide][PGr] and comparison tables as a starting point for choosing a layout,
+and Enthium stands among the top-performing layouts there as of 2026-08-16:
 
-Comparing with [conventional layout rankings][PGl]:
+| Metric                      | 📉 SFBs _(c)_ | 📉 LSBs _(d)_ | 📉 Scissors | 📈 Rolls _(e)_ | 📉 Redirects | 📉 Pinky use _(f)_ |
+| --------------------------- | ------------- | ------------- | ----------- | -------------- | ------------ | ------------------ |
+| **Enthium v15 score**       | 0.49%         | 0.18%         | 0.08%       | 45.26%         | 2.05%        | 14.44%             |
+| **Thumb-letter rank** _(a)_ | 3rd 🥉        | 2nd 🥈        | 1st 🥇      | 8th            | 5th          | 4th                |
+| **Conventional rank** _(b)_ | 1st 🥇        | 1st 🥇        | 1st 🥇      | 16th           | 8th          | 4th                |
 
-* 0.55% SFBs — second 🥈 place; only surpassed by Focal
-* 2.67% SFSs — first 🥇 place; beats the entire table!
-* 0.07% LSBs — first 🥇 place; beats the entire table!
-* 1.48% redirects — second 🥈 place; after HandsDownNeu
-* 0.16% scissors — sixth place; after Dvorak, Anymak:END, APTv3, MTGAP, Colemak-DH
-* 45.82% rolls — beats Semimak, Engram, HandsDownNeu, Anymak:END, Halmak, Dvorak
-* 2.91% pinky off — beats Canary, Gallium, APTv3, Semimak, MTGAP, Dvorak, Recurva, etc.
+* For each metric: 📉 indicates *lower is better*, whereas 📈 indicates *higher is better*.
+* _(a)_ Compared to other [thumb-letter layouts][PGt], excluding past versions of Enthium.
+* _(b)_ Compared to non-thumb [conventional layouts][PGl], such as QWERTY and Dvorak.
+* _(c)_ SFBs are *same-finger bigrams*, such as the sequence ED in the QWERTY layout.
+* _(d)_ LSBs are *lateral-stretch bigrams*, such as the sequence ET in the QWERTY layout.
+* _(e)_ Rolls sums the four roll metrics under the Trigrams category in the table below.
+* _(f)_ Pinky use is [Pascal Getreuer's own metric][PGl], as published in his comparison tables.
 
-Comparing with [thumb-letter layout rankings][PGt]:
+These performance scores were [computed using Cyanophage's Layout Analyzer][cEM]:
 
-* 0.55% SFBs — second 🥈 place; only surpassed by Night
-* 2.67% SFSs — second 🥈 place; only surpassed by Night
-* 0.07% LSBs — second 🥈 place; only surpassed by Caster
-* 1.48% redirects — third 🥉 place; after Nordrassil, Vibranium
-* 0.16% scissors — fourth place; after RSTHD, Promethium, Maltron
-* 45.82% rolls — sixth place; beats Promethium, Nordrassil
-* 2.91% pinky off — third 🥉 place; after RSTHD, Nordrassil
+[![Enthium's performance per Cyanophage's Layout Analyzer](cyanophage.png)][cEM]
 
-Several same-finger bigrams (SFBs) in Enthium can be _raked down_ vertically
-across adjacent rows or _slid over_ horizontally, based on your dexterity and
-comfort.  This allows the same finger to actuate both keys in one continuous
-motion, thereby mitigating their impact on your typing flow and performance:
+| Category | Metric _(g)_           | [Enthium v15][cEM] | [Promethium][cPM] | [Engrammer][cEG] | [Dvorak][cDV] | [Colemak-DH][cCD] | [QWERTY][cQW] |
+| -------- | ---------------------- | ------------------ | ----------------- | ---------------- | ------------- | ----------------- | ------------- |
+| Summary  | 📉 Total Word Effort   | **723.4**          | 732.1             | 899.5            | 1185.5        | 1047.9            | 2070.6        |
+| Summary  | 📉 Effort              | 447.66             | **398.09**        | 457.41           | 769.69        | 534.99            | 1258.15       |
+| Bigrams  | 📉 Same Finger Bigrams | **0.49%**          | 0.58%             | 0.99%            | 1.87%         | 0.91%             | 4.38%         |
+| Bigrams  | 📉 Skip Bigrams (2u)   | **0.33%**          | 0.36%             | 0.39%            | 0.45%         | 0.49%             | 1.43%         |
+| Bigrams  | 📉 Skip Bigrams (SFS)  | **2.73%**          | 3.05%             | 3.47%            | 3.48%         | 4.24%             | 5.45%         |
+| Bigrams  | 📉 Lat Stretch Bigrams | **0.18%**          | 0.24%             | 0.41%            | 0.80%         | 1.27%             | 4.55%         |
+| Bigrams  | 📉 Scissors            | **0.08%**          | 0.11%             | 0.36%            | **0.08%**     | 0.15%             | 1.46%         |
+| Trigrams | 📈 Alt                 | 37.98%             | 36.98%            | 35.62%           | **39.08%**    | 25.43%            | 21.38%        |
+| Trigrams | 📉 Alt SFS             | **4.57%**          | 5.27%             | 5.93%            | 5.85%         | 5.47%             | 5.42%         |
+| Trigrams | 📈 Roll in             | 0.90%              | 1.72%             | **1.82%**        | 0.28%         | 1.50%             | 1.32%         |
+| Trigrams | 📈 Roll out            | 0.37%              | 0.29%             | 0.29%            | 0.27%         | 0.98%             | **1.48%**     |
+| Trigrams | 📈 Bigram roll in      | 27.67%             | **29.17%**        | 28.14%           | 23.51%        | 25.18%            | 20.38%        |
+| Trigrams | 📈 Bigram roll out     | 16.32%             | 14.56%            | 14.03%           | 15.14%        | **21.54%**        | 17.58%        |
+| Trigrams | 📉 Redirect            | 2.05%              | **1.53%**         | 2.26%            | 1.55%         | 5.33%             | 6.22%         |
+| Trigrams | 📉 Weak redirect       | 0.92%              | 0.87%             | 0.74%            | 0.64%         | 1.09%             | **0.44%**     |
+| Trigrams | 📉 Other               | **9.23%**          | 9.61%             | 11.17%           | 13.68%        | 13.49%            | 25.78%        |
+| Getreuer | 📉 Pinky use           | 14.44%             | 14.41%            | 16.86%           | 19.32%        | 16.58%            | **11.04%**    |
 
-> 0.55% SFBs - 0.26% rakeable - 0.07% slideable = **0.22% _effective_ SFBs**
+* _(g)_ **Bold** indicates the best value within each row, among the layouts being compared here in this table.
 
-| SFB  | Cost  | Mitigation |
-| ---  | ----  | ---------- |
-| `ue` | 0.08% | rake down  |
-| `oa` | 0.05% | rake down  |
-| `nf` | 0.04% | rake down  |
-| `ws` | 0.03% | slide in   |
-| `yi` | 0.03% | rake down  |
-| `e-` | 0.02% | slide out  |
-| `sw` | 0.02% | slide out  |
-| `a.` | 0.02% | rake down  |
-| `lk` | 0.02% | rake down  |
-| `e/` | 0.01% | rake down  |
-| `hm` | 0.01% | rake down  |
+[rKL]: https://www.reddit.com/r/KeyboardLayouts/
+[PGr]: https://getreuer.info/posts/keyboards/alt-layouts/
+[PGl]: https://getreuer.info/posts/keyboards/alt-layouts/#table
+[PGt]: https://getreuer.info/posts/keyboards/alt-layouts/#layouts-with-thumb-keys
 
-These results were [computed with Cyanophage's Layout Analyzer][cNM] as follows.
-
-[![Statistics for Enthium from Cyanophage's Layout Analyzer](cyanophage.png)][cNM]
-
-[cNM]: https://cyanophage.github.io/playground.html?layout=qyou%3Dxldpz%5Cciae-khtnsw%27%2C.%3B%2Fjmgfv*rb&mode=ergo&lan=english&thumb=r
+[cEM]: https://cyanophage.github.io/playground.html?layout=qyuo%3Bxldpz%5Cciea%2Ckhtnsw%27-%3D.%2Fjmgfv*rb&mode=ergo&lan=english&thumb=r
 [cPM]: https://cyanophage.github.io/playground.html?layout=fpdlx%3Buoybzsnthk%2Caeicqvwgmj-.%27%3D%2F%5Cr&mode=ergo&lan=english&thumb=l
-[cNG]: https://cyanophage.github.io/playground.html?layout=byou%27%3Bldwvzciea%2C.htsnqgxjk-%2Frmfp%5C%5E&mode=ergo&lan=english&thumb=l
+[cEG]: https://cyanophage.github.io/playground.html?layout=byou%27%3Bldwvzciea%2C.htsnqgxjk-%2Frmfp%5C%5E&mode=ergo&lan=english&thumb=l
 [cDV]: https://cyanophage.github.io/playground.html?layout=%27%2C.pyfgcrl%2Faoeuidhtns-%3Bqjkxbmwvz%5C%5E&mode=ergo&lan=english&thumb=l
 [cCD]: https://cyanophage.github.io/playground.html?layout=qwfpbjluy%3B-arstgmneio%27zxcdvkh%2C.%2F%5C%5E&mode=ergo&lan=english&thumb=l
 [cQW]: https://cyanophage.github.io/playground.html?layout=qwertyuiop-asdfghjkl%3B%27zxcvbnm%2C.%2F%5C%5E&mode=ergo&lan=english&thumb=l
 
-| Category | Statistic              | [Enthium][cNM] | [Promethium][cPM] | [Engrammer][cNG] | [Dvorak][cDV] | [Colemak-DH][cCD] | [QWERTY][cQW] |
-| -------- | ---------------------- | -------------- | ----------------- | ---------------- | ------------- | ----------------- | ------------- |
-| Summary  | Total Word Effort 📉   | 724.5          | 732.1             | 899.5            | 1185.5        | 1047.9            | 2070.6        |
-| Summary  | Effort 📉              | 415.46         | 398.09            | 457.41           | 769.69        | 534.99            | 1258.15       |
-| Bigrams  | Same Finger Bigrams 📉 | 0.55%          | 0.58%             | 0.99%            | 1.87%         | 0.91%             | 4.38%         |
-| Bigrams  | Skip Bigrams (2u) 📉   | 0.33%          | 0.36%             | 0.39%            | 0.45%         | 0.49%             | 1.43%         |
-| Bigrams  | Skip Bigrams (SFS) 📉  | 2.67%          | 3.05%             | 3.47%            | 3.48%         | 4.24%             | 5.45%         |
-| Bigrams  | Lat Stretch Bigrams 📉 | 0.07%          | 0.24%             | 0.41%            | 0.80%         | 1.27%             | 4.55%         |
-| Bigrams  | Scissors 📉            | 0.16%          | 0.11%             | 0.36%            | 0.08%         | 0.15%             | 1.46%         |
-| Trigrams | Alt 📈                 | 38.09%         | 36.98%            | 35.62%           | 39.08%        | 25.43%            | 21.38%        |
-| Trigrams | Alt SFS 📉             | 4.46%          | 5.27%             | 5.93%            | 5.85%         | 5.47%             | 5.42%         |
-| Trigrams | Roll in 📈             | 1.55%          | 1.72%             | 1.82%            | 0.28%         | 1.50%             | 1.32%         |
-| Trigrams | Roll out 📈            | 0.40%          | 0.29%             | 0.29%            | 0.27%         | 0.98%             | 1.48%         |
-| Trigrams | Bigram roll in 📈      | 26.99%         | 29.17%            | 28.14%           | 23.51%        | 25.18%            | 20.38%        |
-| Trigrams | Bigram roll out 📈     | 16.88%         | 14.56%            | 14.03%           | 15.14%        | 21.54%            | 17.58%        |
-| Trigrams | Redirect 📉            | 1.48%          | 1.53%             | 2.26%            | 1.55%         | 5.33%             | 6.22%         |
-| Trigrams | Weak redirect 📉       | 0.79%          | 0.87%             | 0.74%            | 0.64%         | 1.09%             | 0.44%         |
-| Trigrams | Other 📉               | 9.36%          | 9.61%             | 11.17%           | 13.68%        | 13.49%            | 25.78%        |
-| Computed | Pinky off 📉           | 2.91%          | 4.08%             | 5.70%            | 4.13%         | 0.78%             | 2.47%         |
-
-[rKL]: https://www.reddit.com/r/KeyboardLayouts/
-[PGr]: https://getreuer.info/posts/keyboards/alt-layouts/
-[PGl]: https://getreuer.info/posts/keyboards/alt-layouts/#which-alt-keyboard-layout-should-i-learn
-[PGt]: https://getreuer.info/posts/keyboards/alt-layouts/#layouts-with-thumb-keys
-
 ## Implementation
 
-![Concept of this layout on a split, ortho-linear keyboard.](layout.png)
+* Letter R is placed on a right thumb key at the thumb's resting position.
+* Letter B is placed on a left pinky key at the immediate left of letter C.
+* Letter W is placed on a right pinky key at the immediate right of letter S.
+
+![Concept of this layout on a split, ortholinear keyboard.](layout.png)
 
 ### Row-staggered keyboards
+
+* Letter R is placed on the key at the immediate right of Spacebar.
+* Letter B is placed on the key at the immediate left of letter C.
+* AltGr is placed on the key at the immediate right of digit 0.
+* Ctrl is placed on the key at the immediate left of Backspace.
 
 ![Rendering of this layout on a row-staggered keyboard.](laptop.png)
 
@@ -154,6 +155,8 @@ See my [Glorious Engrammer] keymap:
 [Glorious Engrammer]: https://github.com/sunaku/glove80-keymaps
 
 ## Installation
+
+Run each block of commands from this repository's root directory.
 
 ### Kanata setup
 
@@ -196,7 +199,7 @@ Uninstall:
     sudo make uninstall
     echo Now restart your graphical session.
 
-### MacOS setup
+### macOS setup
 
 Install:
 
