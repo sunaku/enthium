@@ -1,12 +1,12 @@
 // ENTHIUM BEGIN ////////////////////////////////////////
 //
-// Enthium - Engrammer meets Hands Down Promethium
-//           https://github.com/sunaku/enthium
+// Enthium v15 - Engrammer meets Hands Down Promethium
+//               https://github.com/sunaku/enthium
 //
 // ` 1 2 3 4 5 6 7 8 9 0 ra rc
-//   q y o u = x l d p z
-// b c i a e - k h t n s w
-//   ' , . ; / j m g f v
+//   q y u o ; x l d p z
+// b c i e a , k h t n s w
+//   ' - = . / j m g f v
 //             r
 //
 // B displaces cl (Caps Lock).
@@ -19,9 +19,9 @@ xkb_symbols "enthium"
 
 	key <AD01> { [            q,           Q ] }; // qQ
 	key <AD02> { [            y,           Y ] }; // yY
-	key <AD03> { [            o,           O ] }; // oO
-	key <AD04> { [            u,           U ] }; // uU
-	key <AD05> { [        equal,        plus ] }; // =+
+	key <AD03> { [            u,           U ] }; // uU
+	key <AD04> { [            o,           O ] }; // oO
+	key <AD05> { [    semicolon,       colon ] }; // ;:
 	key <AD06> { [            x,           X ] }; // xX
 	key <AD07> { [            l,           L ] }; // lL
 	key <AD08> { [            d,           D ] }; // dD
@@ -30,9 +30,9 @@ xkb_symbols "enthium"
 
 	key <AC01> { [            c,           C ] }; // cC
 	key <AC02> { [            i,           I ] }; // iI
-	key <AC03> { [            a,           A ] }; // aA
-	key <AC04> { [            e,           E ] }; // eE
-	key <AC05> { [        minus,  underscore ] }; // -_
+	key <AC03> { [            e,           E ] }; // eE
+	key <AC04> { [            a,           A ] }; // aA
+	key <AC05> { [        comma,        less ] }; // ,<
 	key <AC06> { [            k,           K ] }; // kK
 	key <AC07> { [            h,           H ] }; // hH
 	key <AC08> { [            t,           T ] }; // tT
@@ -41,9 +41,9 @@ xkb_symbols "enthium"
 	key <AC11> { [            w,           W ] }; // wW
 
 	key <AB01> { [   apostrophe,    quotedbl ] }; // '"
-	key <AB02> { [        comma,        less ] }; // ,<
-	key <AB03> { [       period,     greater ] }; // .>
-	key <AB04> { [    semicolon,       colon ] }; // ;:
+	key <AB02> { [        minus,  underscore ] }; // -_
+	key <AB03> { [        equal,        plus ] }; // =+
+	key <AB04> { [       period,     greater ] }; // .>
 	key <AB05> { [        slash,    question ] }; // /?
 	key <AB06> { [            j,           J ] }; // jJ
 	key <AB07> { [            m,           M ] }; // mM
